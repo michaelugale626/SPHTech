@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		892D91734C3E00133A886FDD /* libPods-sphtech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C59482FA9C3749426DFBD5D /* libPods-sphtech.a */; };
-		9D5A7D47EC87360D1E2E3E3C /* libPods-sphtechUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E8146E62FB2D66AFE6DE8C /* libPods-sphtechUITests.a */; };
+		4A45DE80EB25CBE0D8F8F364 /* libPods-sphtech-sphtechTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2902D556FB004579D24BD7E /* libPods-sphtech-sphtechTests.a */; };
+		63A4EA475D8CAD72D6CF0780 /* Pods_sphtech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7531C3F8673849256EB876BB /* Pods_sphtech.framework */; };
+		845CD5DA3121B568700AD19E /* Pods_sphtechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B061808CBA19CCDAA1AFD2 /* Pods_sphtechTests.framework */; };
 		C46A505721ECA56B00BBAC1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A505621ECA56B00BBAC1A /* AppDelegate.m */; };
 		C46A505A21ECA56B00BBAC1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A505921ECA56B00BBAC1A /* ViewController.m */; };
 		C46A505D21ECA56B00BBAC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46A505B21ECA56B00BBAC1A /* Main.storyboard */; };
@@ -61,7 +62,14 @@
 		C46A50DF21ECAB8A00BBAC1A /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50DD21ECAB8A00BBAC1A /* ServerManager.m */; };
 		C46A50E321ECABD300BBAC1A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50E221ECABD200BBAC1A /* Reachability.m */; };
 		C46A50E421ECABD300BBAC1A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50E221ECABD200BBAC1A /* Reachability.m */; };
-		DD35BF7C041322E13C18D747 /* libPods-sphtechTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4E43B6E62E62D075BDD39F /* libPods-sphtechTests.a */; };
+		C46A50E721ECAC9A00BBAC1A /* Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50E621ECAC9A00BBAC1A /* Cache.m */; };
+		C46A50E821ECAC9A00BBAC1A /* Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50E621ECAC9A00BBAC1A /* Cache.m */; };
+		C46A50EB21ECACA900BBAC1A /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50EA21ECACA900BBAC1A /* Utilities.m */; };
+		C46A50EC21ECACA900BBAC1A /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50EA21ECACA900BBAC1A /* Utilities.m */; };
+		C46A50F221ED50AF00BBAC1A /* RecordsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50F121ED50AF00BBAC1A /* RecordsManager.m */; };
+		C46A50F321ED50AF00BBAC1A /* RecordsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50F121ED50AF00BBAC1A /* RecordsManager.m */; };
+		C46A50F621ED50C100BBAC1A /* RecordsSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50F521ED50C100BBAC1A /* RecordsSetter.m */; };
+		C46A50F721ED50C100BBAC1A /* RecordsSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50F521ED50C100BBAC1A /* RecordsSetter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,13 +90,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C59482FA9C3749426DFBD5D /* libPods-sphtech.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sphtech.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B4E43B6E62E62D075BDD39F /* libPods-sphtechTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sphtechTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D3F30712AE9C46AE8D1C4B /* Pods-sphtech-sphtechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech-sphtechTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech-sphtechTests/Pods-sphtech-sphtechTests.release.xcconfig"; sourceTree = "<group>"; };
+		15B061808CBA19CCDAA1AFD2 /* Pods_sphtechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sphtechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		283C6FAFFDF55FEC366886BD /* Pods-sphtechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtechUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sphtechUITests/Pods-sphtechUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4D68D04FEC42D700C81DD1AD /* Pods-sphtechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtechTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sphtechTests/Pods-sphtechTests.release.xcconfig"; sourceTree = "<group>"; };
+		566801A916F743C7B5AE1D37 /* Pods-sphtech-sphtechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech-sphtechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech-sphtechTests/Pods-sphtech-sphtechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7531C3F8673849256EB876BB /* Pods_sphtech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sphtech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED933486340A6181482CDC1 /* Pods-sphtech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech.release.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech/Pods-sphtech.release.xcconfig"; sourceTree = "<group>"; };
 		86E8146E62FB2D66AFE6DE8C /* libPods-sphtechUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sphtechUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		965466B72329E064443A882D /* Pods-sphtechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtechTests/Pods-sphtechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3AC34A03CB3CACC2E6BACAC /* libPods-sphtech-sphtechUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sphtech-sphtechUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E7FCB7E87EBA2158319692 /* Pods-sphtechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtechUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtechUITests/Pods-sphtechUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C46A505221ECA56A00BBAC1A /* sphtech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sphtech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46A505521ECA56B00BBAC1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,7 +152,16 @@
 		C46A50DD21ECAB8A00BBAC1A /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
 		C46A50E121ECABD200BBAC1A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		C46A50E221ECABD200BBAC1A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C46A50E521ECAC9A00BBAC1A /* Cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cache.h; sourceTree = "<group>"; };
+		C46A50E621ECAC9A00BBAC1A /* Cache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cache.m; sourceTree = "<group>"; };
+		C46A50E921ECACA900BBAC1A /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		C46A50EA21ECACA900BBAC1A /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		C46A50F021ED50AF00BBAC1A /* RecordsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordsManager.h; sourceTree = "<group>"; };
+		C46A50F121ED50AF00BBAC1A /* RecordsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordsManager.m; sourceTree = "<group>"; };
+		C46A50F421ED50C100BBAC1A /* RecordsSetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordsSetter.h; sourceTree = "<group>"; };
+		C46A50F521ED50C100BBAC1A /* RecordsSetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordsSetter.m; sourceTree = "<group>"; };
 		E3A15E23C2B82414AF0B2AC5 /* Pods-sphtech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech/Pods-sphtech.debug.xcconfig"; sourceTree = "<group>"; };
+		F2902D556FB004579D24BD7E /* libPods-sphtech-sphtechTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sphtech-sphtechTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				892D91734C3E00133A886FDD /* libPods-sphtech.a in Frameworks */,
+				63A4EA475D8CAD72D6CF0780 /* Pods_sphtech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +177,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD35BF7C041322E13C18D747 /* libPods-sphtechTests.a in Frameworks */,
+				4A45DE80EB25CBE0D8F8F364 /* libPods-sphtech-sphtechTests.a in Frameworks */,
+				845CD5DA3121B568700AD19E /* Pods_sphtechTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +186,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D5A7D47EC87360D1E2E3E3C /* libPods-sphtechUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +201,8 @@
 				4D68D04FEC42D700C81DD1AD /* Pods-sphtechTests.release.xcconfig */,
 				A5E7FCB7E87EBA2158319692 /* Pods-sphtechUITests.debug.xcconfig */,
 				283C6FAFFDF55FEC366886BD /* Pods-sphtechUITests.release.xcconfig */,
+				566801A916F743C7B5AE1D37 /* Pods-sphtech-sphtechTests.debug.xcconfig */,
+				01D3F30712AE9C46AE8D1C4B /* Pods-sphtech-sphtechTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -255,6 +277,10 @@
 		C46A508821ECA76C00BBAC1A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C46A50E521ECAC9A00BBAC1A /* Cache.h */,
+				C46A50E621ECAC9A00BBAC1A /* Cache.m */,
+				C46A50E921ECACA900BBAC1A /* Utilities.h */,
+				C46A50EA21ECACA900BBAC1A /* Utilities.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +297,7 @@
 		C46A508A21ECA78500BBAC1A /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				C46A50EF21ED509100BBAC1A /* Records */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -388,12 +415,25 @@
 			path = Reachability;
 			sourceTree = "<group>";
 		};
+		C46A50EF21ED509100BBAC1A /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				C46A50F021ED50AF00BBAC1A /* RecordsManager.h */,
+				C46A50F121ED50AF00BBAC1A /* RecordsManager.m */,
+				C46A50F421ED50C100BBAC1A /* RecordsSetter.h */,
+				C46A50F521ED50C100BBAC1A /* RecordsSetter.m */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
 		C4B2162C77B4BAF09A06AD88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C59482FA9C3749426DFBD5D /* libPods-sphtech.a */,
-				1B4E43B6E62E62D075BDD39F /* libPods-sphtechTests.a */,
 				86E8146E62FB2D66AFE6DE8C /* libPods-sphtechUITests.a */,
+				F2902D556FB004579D24BD7E /* libPods-sphtech-sphtechTests.a */,
+				A3AC34A03CB3CACC2E6BACAC /* libPods-sphtech-sphtechUITests.a */,
+				7531C3F8673849256EB876BB /* Pods_sphtech.framework */,
+				15B061808CBA19CCDAA1AFD2 /* Pods_sphtechTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -409,6 +449,7 @@
 				C46A504E21ECA56A00BBAC1A /* Sources */,
 				C46A504F21ECA56A00BBAC1A /* Frameworks */,
 				C46A505021ECA56A00BBAC1A /* Resources */,
+				F07A27808783CC7250B2EDB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -427,6 +468,7 @@
 				C46A506621ECA56B00BBAC1A /* Sources */,
 				C46A506721ECA56B00BBAC1A /* Frameworks */,
 				C46A506821ECA56B00BBAC1A /* Resources */,
+				0754666E086F1B2AD57C6175 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -442,7 +484,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C46A508421ECA56B00BBAC1A /* Build configuration list for PBXNativeTarget "sphtechUITests" */;
 			buildPhases = (
-				987D52988A9A8BE4090549CE /* [CP] Check Pods Manifest.lock */,
 				C46A507121ECA56B00BBAC1A /* Sources */,
 				C46A507221ECA56B00BBAC1A /* Frameworks */,
 				C46A507321ECA56B00BBAC1A /* Resources */,
@@ -554,6 +595,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0754666E086F1B2AD57C6175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sphtechTests/Pods-sphtechTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-iOS11.1/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl-iOS11.1/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageZoomViewer-iOS11.1/ImageZoomViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS11.1/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry-iOS11.1/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDVersion-iOS11.1/SDVersion.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS11.1/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/UIAlertController+Blocks-iOS11.1/UIAlertController_Blocks.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageZoomViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDVersion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIAlertController_Blocks.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sphtechTests/Pods-sphtechTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		198A20E48DAA16B008E02F31 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -590,22 +663,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		987D52988A9A8BE4090549CE /* [CP] Check Pods Manifest.lock */ = {
+		F07A27808783CC7250B2EDB2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${SRCROOT}/Pods/Target Support Files/Pods-sphtech/Pods-sphtech-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-iOS8.0/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl-iOS8.0/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageZoomViewer-iOS8.0/ImageZoomViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS8.0/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry-iOS8.0/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDVersion-iOS8.0/SDVersion.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS8.0/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/UIAlertController+Blocks-iOS8.0/UIAlertController_Blocks.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sphtechUITests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageZoomViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDVersion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIAlertController_Blocks.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sphtech/Pods-sphtech-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -621,8 +708,12 @@
 				C46A505A21ECA56B00BBAC1A /* ViewController.m in Sources */,
 				C46A50AD21ECA85D00BBAC1A /* UIButton+Format.m in Sources */,
 				C46A506521ECA56B00BBAC1A /* main.m in Sources */,
+				C46A50F621ED50C100BBAC1A /* RecordsSetter.m in Sources */,
 				C46A50AF21ECA85D00BBAC1A /* UIColor+More.m in Sources */,
 				C46A505721ECA56B00BBAC1A /* AppDelegate.m in Sources */,
+				C46A50F221ED50AF00BBAC1A /* RecordsManager.m in Sources */,
+				C46A50E721ECAC9A00BBAC1A /* Cache.m in Sources */,
+				C46A50EB21ECACA900BBAC1A /* Utilities.m in Sources */,
 				C46A50A521ECA85D00BBAC1A /* UIViewController+Additions.m in Sources */,
 				C46A50B121ECA85D00BBAC1A /* NSObject+Cast.m in Sources */,
 				C46A50AB21ECA85D00BBAC1A /* UILabel+Format.m in Sources */,
@@ -641,10 +732,14 @@
 				C46A50E421ECABD300BBAC1A /* Reachability.m in Sources */,
 				C46A50AE21ECA85D00BBAC1A /* UIButton+Format.m in Sources */,
 				C46A50A421ECA85D00BBAC1A /* NSDateFormatter+StaticInstance.m in Sources */,
+				C46A50E821ECAC9A00BBAC1A /* Cache.m in Sources */,
 				C46A50B021ECA85D00BBAC1A /* UIColor+More.m in Sources */,
 				C46A50AC21ECA85D00BBAC1A /* UILabel+Format.m in Sources */,
 				C46A50AA21ECA85D00BBAC1A /* UIAlertController+Convenience.m in Sources */,
 				C46A50B221ECA85D00BBAC1A /* NSObject+Cast.m in Sources */,
+				C46A50EC21ECACA900BBAC1A /* Utilities.m in Sources */,
+				C46A50F321ED50AF00BBAC1A /* RecordsManager.m in Sources */,
+				C46A50F721ED50C100BBAC1A /* RecordsSetter.m in Sources */,
 				C46A506F21ECA56B00BBAC1A /* sphtechTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -804,10 +899,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/SupportingFiles/Prefix.pch";
 				INFOPLIST_FILE = sphtech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.www.sphtech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -819,10 +915,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/SupportingFiles/Prefix.pch";
 				INFOPLIST_FILE = sphtech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.www.sphtech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -858,7 +955,6 @@
 		};
 		C46A508521ECA56B00BBAC1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5E7FCB7E87EBA2158319692 /* Pods-sphtechUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = sphtechUITests/Info.plist;
@@ -872,7 +968,6 @@
 		};
 		C46A508621ECA56B00BBAC1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 283C6FAFFDF55FEC366886BD /* Pods-sphtechUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = sphtechUITests/Info.plist;

@@ -16,7 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
+    [dictionary setObject:@"10" forKey:@"limit"];
+    
+    [[ServerManager sharedManager] getDataList:dictionary
+                                       success:^(NSDictionary *responseObject) {
+                                           SPLOG_DEBUG(@"DATA LIST: %@",responseObject);
+        
+                                       } failure:^(NSError *error) {
+                                           SPLOG_DEBUG(@"DATA LIST: %@",error);
+                                       }];
 }
 
 

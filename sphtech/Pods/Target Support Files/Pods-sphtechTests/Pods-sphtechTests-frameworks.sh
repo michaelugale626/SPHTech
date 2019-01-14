@@ -141,6 +141,27 @@ strip_invalid_archs() {
   STRIP_BINARY_RETVAL=1
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking-iOS11.1/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HMSegmentedControl-iOS11.1/HMSegmentedControl.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ImageZoomViewer-iOS11.1/ImageZoomViewer.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS11.1/MBProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry-iOS11.1/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDVersion-iOS11.1/SDVersion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage-iOS11.1/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UIAlertController+Blocks-iOS11.1/UIAlertController_Blocks.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking-iOS11.1/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HMSegmentedControl-iOS11.1/HMSegmentedControl.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ImageZoomViewer-iOS11.1/ImageZoomViewer.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS11.1/MBProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry-iOS11.1/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDVersion-iOS11.1/SDVersion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage-iOS11.1/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UIAlertController+Blocks-iOS11.1/UIAlertController_Blocks.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

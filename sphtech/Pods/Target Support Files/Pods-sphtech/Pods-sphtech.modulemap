@@ -1,0 +1,6 @@
+framework module Pods_sphtech {
+  umbrella header "Pods-sphtech-umbrella.h"
+
+  export *
+  module * { export * }
+}

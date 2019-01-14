@@ -10,6 +10,27 @@
 #import <AFNetworking/AFNetworking.h>
 #import "Reachability.h"
 
-@interface ServerManager : NSObject
+typedef void(^ServerManagerSuccessBlock)(NSDictionary *responseObject);
+typedef void(^ServerManagerFailureBlock)(NSError *error);
 
+typedef NS_ENUM(NSInteger, ErrorType)
+{
+    kErrorNoInternet = 0,
+    kErrorFailedAccesstokenRequest,
+    kErrorNone
+};
+
+@interface ServerManager : AFHTTPSessionManager
+    
+    @property (nonatomic) BOOL                  hasInternet;
+    @property (strong, nonatomic) Reachability  *reachability;
+    
++ (ServerManager *)sharedManager;
+    
+#pragma mark - GET
+    
+- (void) getDataList:(NSDictionary *)params
+                success:(ServerManagerSuccessBlock)success
+                failure:(ServerManagerFailureBlock)failure;
+    
 @end
