@@ -33,6 +33,30 @@
 		C46A50B021ECA85D00BBAC1A /* UIColor+More.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50A021ECA85D00BBAC1A /* UIColor+More.m */; };
 		C46A50B121ECA85D00BBAC1A /* NSObject+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50A121ECA85D00BBAC1A /* NSObject+Cast.m */; };
 		C46A50B221ECA85D00BBAC1A /* NSObject+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50A121ECA85D00BBAC1A /* NSObject+Cast.m */; };
+		C46A50C121ECA9F800BBAC1A /* GE_Dinar_Two_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50B521ECA9F800BBAC1A /* GE_Dinar_Two_Light.otf */; };
+		C46A50C221ECA9F800BBAC1A /* GE_Dinar_Two_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50B521ECA9F800BBAC1A /* GE_Dinar_Two_Light.otf */; };
+		C46A50C321ECA9F800BBAC1A /* Seravek.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50B621ECA9F800BBAC1A /* Seravek.otf */; };
+		C46A50C421ECA9F800BBAC1A /* Seravek.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50B621ECA9F800BBAC1A /* Seravek.otf */; };
+		C46A50C521ECA9F800BBAC1A /* Seravek-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50B721ECA9F800BBAC1A /* Seravek-Bold.otf */; };
+		C46A50C621ECA9F800BBAC1A /* Seravek-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50B721ECA9F800BBAC1A /* Seravek-Bold.otf */; };
+		C46A50C721ECA9F800BBAC1A /* Seravek-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50B821ECA9F800BBAC1A /* Seravek-LightItalic.otf */; };
+		C46A50C821ECA9F800BBAC1A /* Seravek-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50B821ECA9F800BBAC1A /* Seravek-LightItalic.otf */; };
+		C46A50C921ECA9F800BBAC1A /* Seravek-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50B921ECA9F800BBAC1A /* Seravek-ExtraLightItalic.otf */; };
+		C46A50CA21ECA9F800BBAC1A /* Seravek-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50B921ECA9F800BBAC1A /* Seravek-ExtraLightItalic.otf */; };
+		C46A50CB21ECA9F800BBAC1A /* Seravek-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BA21ECA9F800BBAC1A /* Seravek-Italic.otf */; };
+		C46A50CC21ECA9F800BBAC1A /* Seravek-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BA21ECA9F800BBAC1A /* Seravek-Italic.otf */; };
+		C46A50CD21ECA9F800BBAC1A /* Seravek-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BB21ECA9F800BBAC1A /* Seravek-Medium.otf */; };
+		C46A50CE21ECA9F800BBAC1A /* Seravek-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BB21ECA9F800BBAC1A /* Seravek-Medium.otf */; };
+		C46A50CF21ECA9F800BBAC1A /* Seravek-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BC21ECA9F800BBAC1A /* Seravek-MediumItalic.otf */; };
+		C46A50D021ECA9F800BBAC1A /* Seravek-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BC21ECA9F800BBAC1A /* Seravek-MediumItalic.otf */; };
+		C46A50D121ECA9F800BBAC1A /* GE_Dinar_Two_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BD21ECA9F800BBAC1A /* GE_Dinar_Two_Medium.otf */; };
+		C46A50D221ECA9F800BBAC1A /* GE_Dinar_Two_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BD21ECA9F800BBAC1A /* GE_Dinar_Two_Medium.otf */; };
+		C46A50D321ECA9F900BBAC1A /* Seravek-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BE21ECA9F800BBAC1A /* Seravek-Light.otf */; };
+		C46A50D421ECA9F900BBAC1A /* Seravek-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BE21ECA9F800BBAC1A /* Seravek-Light.otf */; };
+		C46A50D521ECA9F900BBAC1A /* Seravek-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BF21ECA9F800BBAC1A /* Seravek-ExtraLight.otf */; };
+		C46A50D621ECA9F900BBAC1A /* Seravek-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BF21ECA9F800BBAC1A /* Seravek-ExtraLight.otf */; };
+		C46A50D721ECA9F900BBAC1A /* Seravek-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50C021ECA9F800BBAC1A /* Seravek-BoldItalic.otf */; };
+		C46A50D821ECA9F900BBAC1A /* Seravek-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50C021ECA9F800BBAC1A /* Seravek-BoldItalic.otf */; };
 		DD35BF7C041322E13C18D747 /* libPods-sphtechTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4E43B6E62E62D075BDD39F /* libPods-sphtechTests.a */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +118,20 @@
 		C46A50A021ECA85D00BBAC1A /* UIColor+More.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+More.m"; sourceTree = "<group>"; };
 		C46A50A121ECA85D00BBAC1A /* NSObject+Cast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Cast.m"; sourceTree = "<group>"; };
 		C46A50A221ECA85D00BBAC1A /* UIAlertController+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Convenience.h"; sourceTree = "<group>"; };
+		C46A50B321ECA98B00BBAC1A /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		C46A50B521ECA9F800BBAC1A /* GE_Dinar_Two_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GE_Dinar_Two_Light.otf; sourceTree = "<group>"; };
+		C46A50B621ECA9F800BBAC1A /* Seravek.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Seravek.otf; sourceTree = "<group>"; };
+		C46A50B721ECA9F800BBAC1A /* Seravek-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-Bold.otf"; sourceTree = "<group>"; };
+		C46A50B821ECA9F800BBAC1A /* Seravek-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-LightItalic.otf"; sourceTree = "<group>"; };
+		C46A50B921ECA9F800BBAC1A /* Seravek-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		C46A50BA21ECA9F800BBAC1A /* Seravek-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-Italic.otf"; sourceTree = "<group>"; };
+		C46A50BB21ECA9F800BBAC1A /* Seravek-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-Medium.otf"; sourceTree = "<group>"; };
+		C46A50BC21ECA9F800BBAC1A /* Seravek-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-MediumItalic.otf"; sourceTree = "<group>"; };
+		C46A50BD21ECA9F800BBAC1A /* GE_Dinar_Two_Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GE_Dinar_Two_Medium.otf; sourceTree = "<group>"; };
+		C46A50BE21ECA9F800BBAC1A /* Seravek-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-Light.otf"; sourceTree = "<group>"; };
+		C46A50BF21ECA9F800BBAC1A /* Seravek-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-ExtraLight.otf"; sourceTree = "<group>"; };
+		C46A50C021ECA9F800BBAC1A /* Seravek-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-BoldItalic.otf"; sourceTree = "<group>"; };
+		C46A50D921ECAA2300BBAC1A /* SpeilsConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeilsConstant.h; sourceTree = "<group>"; };
 		E3A15E23C2B82414AF0B2AC5 /* Pods-sphtech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech/Pods-sphtech.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -285,7 +323,10 @@
 		C46A509021ECA7EA00BBAC1A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C46A50B421ECA9D000BBAC1A /* Font */,
 				C46A505E21ECA56B00BBAC1A /* Assets.xcassets */,
+				C46A50B321ECA98B00BBAC1A /* Constant.h */,
+				C46A50D921ECAA2300BBAC1A /* SpeilsConstant.h */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -296,6 +337,25 @@
 				C46A506421ECA56B00BBAC1A /* main.m */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C46A50B421ECA9D000BBAC1A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C46A50B521ECA9F800BBAC1A /* GE_Dinar_Two_Light.otf */,
+				C46A50BD21ECA9F800BBAC1A /* GE_Dinar_Two_Medium.otf */,
+				C46A50B721ECA9F800BBAC1A /* Seravek-Bold.otf */,
+				C46A50C021ECA9F800BBAC1A /* Seravek-BoldItalic.otf */,
+				C46A50BF21ECA9F800BBAC1A /* Seravek-ExtraLight.otf */,
+				C46A50B921ECA9F800BBAC1A /* Seravek-ExtraLightItalic.otf */,
+				C46A50BA21ECA9F800BBAC1A /* Seravek-Italic.otf */,
+				C46A50BE21ECA9F800BBAC1A /* Seravek-Light.otf */,
+				C46A50B821ECA9F800BBAC1A /* Seravek-LightItalic.otf */,
+				C46A50BB21ECA9F800BBAC1A /* Seravek-Medium.otf */,
+				C46A50BC21ECA9F800BBAC1A /* Seravek-MediumItalic.otf */,
+				C46A50B621ECA9F800BBAC1A /* Seravek.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		C4B2162C77B4BAF09A06AD88 /* Frameworks */ = {
@@ -417,8 +477,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46A50CB21ECA9F800BBAC1A /* Seravek-Italic.otf in Resources */,
+				C46A50D521ECA9F900BBAC1A /* Seravek-ExtraLight.otf in Resources */,
 				C46A506221ECA56B00BBAC1A /* LaunchScreen.storyboard in Resources */,
+				C46A50CD21ECA9F800BBAC1A /* Seravek-Medium.otf in Resources */,
+				C46A50C321ECA9F800BBAC1A /* Seravek.otf in Resources */,
+				C46A50D121ECA9F800BBAC1A /* GE_Dinar_Two_Medium.otf in Resources */,
+				C46A50D321ECA9F900BBAC1A /* Seravek-Light.otf in Resources */,
 				C46A505F21ECA56B00BBAC1A /* Assets.xcassets in Resources */,
+				C46A50CF21ECA9F800BBAC1A /* Seravek-MediumItalic.otf in Resources */,
+				C46A50C921ECA9F800BBAC1A /* Seravek-ExtraLightItalic.otf in Resources */,
+				C46A50C121ECA9F800BBAC1A /* GE_Dinar_Two_Light.otf in Resources */,
+				C46A50C721ECA9F800BBAC1A /* Seravek-LightItalic.otf in Resources */,
+				C46A50C521ECA9F800BBAC1A /* Seravek-Bold.otf in Resources */,
+				C46A50D721ECA9F900BBAC1A /* Seravek-BoldItalic.otf in Resources */,
 				C46A505D21ECA56B00BBAC1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +499,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46A50D621ECA9F900BBAC1A /* Seravek-ExtraLight.otf in Resources */,
+				C46A50CE21ECA9F800BBAC1A /* Seravek-Medium.otf in Resources */,
+				C46A50D221ECA9F800BBAC1A /* GE_Dinar_Two_Medium.otf in Resources */,
+				C46A50C221ECA9F800BBAC1A /* GE_Dinar_Two_Light.otf in Resources */,
+				C46A50C621ECA9F800BBAC1A /* Seravek-Bold.otf in Resources */,
+				C46A50D421ECA9F900BBAC1A /* Seravek-Light.otf in Resources */,
+				C46A50C821ECA9F800BBAC1A /* Seravek-LightItalic.otf in Resources */,
+				C46A50D021ECA9F800BBAC1A /* Seravek-MediumItalic.otf in Resources */,
+				C46A50CC21ECA9F800BBAC1A /* Seravek-Italic.otf in Resources */,
+				C46A50CA21ECA9F800BBAC1A /* Seravek-ExtraLightItalic.otf in Resources */,
+				C46A50D821ECA9F900BBAC1A /* Seravek-BoldItalic.otf in Resources */,
+				C46A50C421ECA9F800BBAC1A /* Seravek.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
