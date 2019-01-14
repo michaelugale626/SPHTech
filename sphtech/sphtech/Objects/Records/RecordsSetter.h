@@ -8,6 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RecordsSetter : NSObject
+//Objects
+#import "RecordsManager.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
+@interface RecordsSetter : NSObject
+    
++ (RecordsSetter *)shared;
+    
+- (RecordsManager *) setInfo: (NSDictionary *)response;
+    
 @end
+
+NS_ASSUME_NONNULL_END
