@@ -17,6 +17,22 @@
 		C46A506521ECA56B00BBAC1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A506421ECA56B00BBAC1A /* main.m */; };
 		C46A506F21ECA56B00BBAC1A /* sphtechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A506E21ECA56B00BBAC1A /* sphtechTests.m */; };
 		C46A507A21ECA56B00BBAC1A /* sphtechUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A507921ECA56B00BBAC1A /* sphtechUITests.m */; };
+		C46A50A321ECA85D00BBAC1A /* NSDateFormatter+StaticInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509521ECA85C00BBAC1A /* NSDateFormatter+StaticInstance.m */; };
+		C46A50A421ECA85D00BBAC1A /* NSDateFormatter+StaticInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509521ECA85C00BBAC1A /* NSDateFormatter+StaticInstance.m */; };
+		C46A50A521ECA85D00BBAC1A /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509621ECA85C00BBAC1A /* UIViewController+Additions.m */; };
+		C46A50A621ECA85D00BBAC1A /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509621ECA85C00BBAC1A /* UIViewController+Additions.m */; };
+		C46A50A721ECA85D00BBAC1A /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509B21ECA85C00BBAC1A /* NSString+Additions.m */; };
+		C46A50A821ECA85D00BBAC1A /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509B21ECA85C00BBAC1A /* NSString+Additions.m */; };
+		C46A50A921ECA85D00BBAC1A /* UIAlertController+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509D21ECA85D00BBAC1A /* UIAlertController+Convenience.m */; };
+		C46A50AA21ECA85D00BBAC1A /* UIAlertController+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509D21ECA85D00BBAC1A /* UIAlertController+Convenience.m */; };
+		C46A50AB21ECA85D00BBAC1A /* UILabel+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509E21ECA85D00BBAC1A /* UILabel+Format.m */; };
+		C46A50AC21ECA85D00BBAC1A /* UILabel+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509E21ECA85D00BBAC1A /* UILabel+Format.m */; };
+		C46A50AD21ECA85D00BBAC1A /* UIButton+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509F21ECA85D00BBAC1A /* UIButton+Format.m */; };
+		C46A50AE21ECA85D00BBAC1A /* UIButton+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A509F21ECA85D00BBAC1A /* UIButton+Format.m */; };
+		C46A50AF21ECA85D00BBAC1A /* UIColor+More.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50A021ECA85D00BBAC1A /* UIColor+More.m */; };
+		C46A50B021ECA85D00BBAC1A /* UIColor+More.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50A021ECA85D00BBAC1A /* UIColor+More.m */; };
+		C46A50B121ECA85D00BBAC1A /* NSObject+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50A121ECA85D00BBAC1A /* NSObject+Cast.m */; };
+		C46A50B221ECA85D00BBAC1A /* NSObject+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50A121ECA85D00BBAC1A /* NSObject+Cast.m */; };
 		DD35BF7C041322E13C18D747 /* libPods-sphtechTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4E43B6E62E62D075BDD39F /* libPods-sphtechTests.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +78,22 @@
 		C46A507521ECA56B00BBAC1A /* sphtechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sphtechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46A507921ECA56B00BBAC1A /* sphtechUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sphtechUITests.m; sourceTree = "<group>"; };
 		C46A507B21ECA56B00BBAC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46A509321ECA85C00BBAC1A /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		C46A509421ECA85C00BBAC1A /* NSObject+Cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Cast.h"; sourceTree = "<group>"; };
+		C46A509521ECA85C00BBAC1A /* NSDateFormatter+StaticInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+StaticInstance.m"; sourceTree = "<group>"; };
+		C46A509621ECA85C00BBAC1A /* UIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Additions.m"; sourceTree = "<group>"; };
+		C46A509721ECA85C00BBAC1A /* UIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additions.h"; sourceTree = "<group>"; };
+		C46A509821ECA85C00BBAC1A /* NSDateFormatter+StaticInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+StaticInstance.h"; sourceTree = "<group>"; };
+		C46A509921ECA85C00BBAC1A /* UIButton+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Format.h"; sourceTree = "<group>"; };
+		C46A509A21ECA85C00BBAC1A /* UILabel+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Format.h"; sourceTree = "<group>"; };
+		C46A509B21ECA85C00BBAC1A /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		C46A509C21ECA85D00BBAC1A /* UIColor+More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+More.h"; sourceTree = "<group>"; };
+		C46A509D21ECA85D00BBAC1A /* UIAlertController+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Convenience.m"; sourceTree = "<group>"; };
+		C46A509E21ECA85D00BBAC1A /* UILabel+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Format.m"; sourceTree = "<group>"; };
+		C46A509F21ECA85D00BBAC1A /* UIButton+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Format.m"; sourceTree = "<group>"; };
+		C46A50A021ECA85D00BBAC1A /* UIColor+More.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+More.m"; sourceTree = "<group>"; };
+		C46A50A121ECA85D00BBAC1A /* NSObject+Cast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Cast.m"; sourceTree = "<group>"; };
+		C46A50A221ECA85D00BBAC1A /* UIAlertController+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Convenience.h"; sourceTree = "<group>"; };
 		E3A15E23C2B82414AF0B2AC5 /* Pods-sphtech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech/Pods-sphtech.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,15 +163,18 @@
 		C46A505421ECA56A00BBAC1A /* sphtech */ = {
 			isa = PBXGroup;
 			children = (
-				C46A505521ECA56B00BBAC1A /* AppDelegate.h */,
-				C46A505621ECA56B00BBAC1A /* AppDelegate.m */,
-				C46A505821ECA56B00BBAC1A /* ViewController.h */,
-				C46A505921ECA56B00BBAC1A /* ViewController.m */,
-				C46A505B21ECA56B00BBAC1A /* Main.storyboard */,
-				C46A505E21ECA56B00BBAC1A /* Assets.xcassets */,
-				C46A506021ECA56B00BBAC1A /* LaunchScreen.storyboard */,
+				C46A509221ECA81400BBAC1A /* SupportingFiles */,
+				C46A509021ECA7EA00BBAC1A /* Resources */,
+				C46A508F21ECA7C500BBAC1A /* Storyboard */,
+				C46A508E21ECA7AD00BBAC1A /* AppDelegate */,
+				C46A508D21ECA7A200BBAC1A /* Categories */,
+				C46A508C21ECA79800BBAC1A /* CustomViews */,
+				C46A508B21ECA78E00BBAC1A /* Manager */,
+				C46A508A21ECA78500BBAC1A /* Objects */,
+				C46A508921ECA77500BBAC1A /* ViewControllers */,
+				C46A508821ECA76C00BBAC1A /* Utilities */,
+				C46A508721ECA75B00BBAC1A /* Vendor */,
 				C46A506321ECA56B00BBAC1A /* Info.plist */,
-				C46A506421ECA56B00BBAC1A /* main.m */,
 			);
 			path = sphtech;
 			sourceTree = "<group>";
@@ -160,6 +195,107 @@
 				C46A507B21ECA56B00BBAC1A /* Info.plist */,
 			);
 			path = sphtechUITests;
+			sourceTree = "<group>";
+		};
+		C46A508721ECA75B00BBAC1A /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		C46A508821ECA76C00BBAC1A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C46A508921ECA77500BBAC1A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C46A505821ECA56B00BBAC1A /* ViewController.h */,
+				C46A505921ECA56B00BBAC1A /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C46A508A21ECA78500BBAC1A /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		C46A508B21ECA78E00BBAC1A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C46A508C21ECA79800BBAC1A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C46A508D21ECA7A200BBAC1A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C46A509821ECA85C00BBAC1A /* NSDateFormatter+StaticInstance.h */,
+				C46A509521ECA85C00BBAC1A /* NSDateFormatter+StaticInstance.m */,
+				C46A509421ECA85C00BBAC1A /* NSObject+Cast.h */,
+				C46A50A121ECA85D00BBAC1A /* NSObject+Cast.m */,
+				C46A509321ECA85C00BBAC1A /* NSString+Additions.h */,
+				C46A509B21ECA85C00BBAC1A /* NSString+Additions.m */,
+				C46A50A221ECA85D00BBAC1A /* UIAlertController+Convenience.h */,
+				C46A509D21ECA85D00BBAC1A /* UIAlertController+Convenience.m */,
+				C46A509921ECA85C00BBAC1A /* UIButton+Format.h */,
+				C46A509F21ECA85D00BBAC1A /* UIButton+Format.m */,
+				C46A509C21ECA85D00BBAC1A /* UIColor+More.h */,
+				C46A50A021ECA85D00BBAC1A /* UIColor+More.m */,
+				C46A509A21ECA85C00BBAC1A /* UILabel+Format.h */,
+				C46A509E21ECA85D00BBAC1A /* UILabel+Format.m */,
+				C46A509721ECA85C00BBAC1A /* UIViewController+Additions.h */,
+				C46A509621ECA85C00BBAC1A /* UIViewController+Additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C46A508E21ECA7AD00BBAC1A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C46A505521ECA56B00BBAC1A /* AppDelegate.h */,
+				C46A505621ECA56B00BBAC1A /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C46A508F21ECA7C500BBAC1A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C46A505B21ECA56B00BBAC1A /* Main.storyboard */,
+				C46A506021ECA56B00BBAC1A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C46A509021ECA7EA00BBAC1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C46A505E21ECA56B00BBAC1A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C46A509221ECA81400BBAC1A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C46A506421ECA56B00BBAC1A /* main.m */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		C4B2162C77B4BAF09A06AD88 /* Frameworks */ = {
@@ -309,15 +445,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-sphtech-checkManifestLockResult.txt",
 			);
@@ -331,15 +463,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-sphtechTests-checkManifestLockResult.txt",
 			);
@@ -353,15 +481,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-sphtechUITests-checkManifestLockResult.txt",
 			);
@@ -377,9 +501,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46A50A321ECA85D00BBAC1A /* NSDateFormatter+StaticInstance.m in Sources */,
 				C46A505A21ECA56B00BBAC1A /* ViewController.m in Sources */,
+				C46A50AD21ECA85D00BBAC1A /* UIButton+Format.m in Sources */,
 				C46A506521ECA56B00BBAC1A /* main.m in Sources */,
+				C46A50AF21ECA85D00BBAC1A /* UIColor+More.m in Sources */,
 				C46A505721ECA56B00BBAC1A /* AppDelegate.m in Sources */,
+				C46A50A521ECA85D00BBAC1A /* UIViewController+Additions.m in Sources */,
+				C46A50B121ECA85D00BBAC1A /* NSObject+Cast.m in Sources */,
+				C46A50AB21ECA85D00BBAC1A /* UILabel+Format.m in Sources */,
+				C46A50A721ECA85D00BBAC1A /* NSString+Additions.m in Sources */,
+				C46A50A921ECA85D00BBAC1A /* UIAlertController+Convenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +519,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46A50A621ECA85D00BBAC1A /* UIViewController+Additions.m in Sources */,
+				C46A50A821ECA85D00BBAC1A /* NSString+Additions.m in Sources */,
+				C46A50AE21ECA85D00BBAC1A /* UIButton+Format.m in Sources */,
+				C46A50A421ECA85D00BBAC1A /* NSDateFormatter+StaticInstance.m in Sources */,
+				C46A50B021ECA85D00BBAC1A /* UIColor+More.m in Sources */,
+				C46A50AC21ECA85D00BBAC1A /* UILabel+Format.m in Sources */,
+				C46A50AA21ECA85D00BBAC1A /* UIAlertController+Convenience.m in Sources */,
+				C46A50B221ECA85D00BBAC1A /* NSObject+Cast.m in Sources */,
 				C46A506F21ECA56B00BBAC1A /* sphtechTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
