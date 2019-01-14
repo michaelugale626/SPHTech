@@ -57,6 +57,10 @@
 		C46A50D621ECA9F900BBAC1A /* Seravek-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50BF21ECA9F800BBAC1A /* Seravek-ExtraLight.otf */; };
 		C46A50D721ECA9F900BBAC1A /* Seravek-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50C021ECA9F800BBAC1A /* Seravek-BoldItalic.otf */; };
 		C46A50D821ECA9F900BBAC1A /* Seravek-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C46A50C021ECA9F800BBAC1A /* Seravek-BoldItalic.otf */; };
+		C46A50DE21ECAB8A00BBAC1A /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50DD21ECAB8A00BBAC1A /* ServerManager.m */; };
+		C46A50DF21ECAB8A00BBAC1A /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50DD21ECAB8A00BBAC1A /* ServerManager.m */; };
+		C46A50E321ECABD300BBAC1A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50E221ECABD200BBAC1A /* Reachability.m */; };
+		C46A50E421ECABD300BBAC1A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50E221ECABD200BBAC1A /* Reachability.m */; };
 		DD35BF7C041322E13C18D747 /* libPods-sphtechTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4E43B6E62E62D075BDD39F /* libPods-sphtechTests.a */; };
 /* End PBXBuildFile section */
 
@@ -132,6 +136,11 @@
 		C46A50BF21ECA9F800BBAC1A /* Seravek-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-ExtraLight.otf"; sourceTree = "<group>"; };
 		C46A50C021ECA9F800BBAC1A /* Seravek-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-BoldItalic.otf"; sourceTree = "<group>"; };
 		C46A50D921ECAA2300BBAC1A /* SpeilsConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeilsConstant.h; sourceTree = "<group>"; };
+		C46A50DA21ECAAAF00BBAC1A /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C46A50DC21ECAB8A00BBAC1A /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		C46A50DD21ECAB8A00BBAC1A /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		C46A50E121ECABD200BBAC1A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C46A50E221ECABD200BBAC1A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E3A15E23C2B82414AF0B2AC5 /* Pods-sphtech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech/Pods-sphtech.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -238,6 +247,7 @@
 		C46A508721ECA75B00BBAC1A /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				C46A50E021ECABB500BBAC1A /* Reachability */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -268,6 +278,7 @@
 		C46A508B21ECA78E00BBAC1A /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				C46A50DB21ECAB5C00BBAC1A /* API */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -335,6 +346,7 @@
 			isa = PBXGroup;
 			children = (
 				C46A506421ECA56B00BBAC1A /* main.m */,
+				C46A50DA21ECAAAF00BBAC1A /* Prefix.pch */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -356,6 +368,24 @@
 				C46A50B621ECA9F800BBAC1A /* Seravek.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		C46A50DB21ECAB5C00BBAC1A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C46A50DC21ECAB8A00BBAC1A /* ServerManager.h */,
+				C46A50DD21ECAB8A00BBAC1A /* ServerManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C46A50E021ECABB500BBAC1A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C46A50E121ECABD200BBAC1A /* Reachability.h */,
+				C46A50E221ECABD200BBAC1A /* Reachability.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		C4B2162C77B4BAF09A06AD88 /* Frameworks */ = {
@@ -585,6 +615,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46A50E321ECABD300BBAC1A /* Reachability.m in Sources */,
+				C46A50DE21ECAB8A00BBAC1A /* ServerManager.m in Sources */,
 				C46A50A321ECA85D00BBAC1A /* NSDateFormatter+StaticInstance.m in Sources */,
 				C46A505A21ECA56B00BBAC1A /* ViewController.m in Sources */,
 				C46A50AD21ECA85D00BBAC1A /* UIButton+Format.m in Sources */,
@@ -603,8 +635,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46A50DF21ECAB8A00BBAC1A /* ServerManager.m in Sources */,
 				C46A50A621ECA85D00BBAC1A /* UIViewController+Additions.m in Sources */,
 				C46A50A821ECA85D00BBAC1A /* NSString+Additions.m in Sources */,
+				C46A50E421ECABD300BBAC1A /* Reachability.m in Sources */,
 				C46A50AE21ECA85D00BBAC1A /* UIButton+Format.m in Sources */,
 				C46A50A421ECA85D00BBAC1A /* NSDateFormatter+StaticInstance.m in Sources */,
 				C46A50B021ECA85D00BBAC1A /* UIColor+More.m in Sources */,
@@ -768,6 +802,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/SupportingFiles/Prefix.pch";
 				INFOPLIST_FILE = sphtech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.www.sphtech;
@@ -782,6 +817,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/SupportingFiles/Prefix.pch";
 				INFOPLIST_FILE = sphtech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.www.sphtech;

@@ -1,0 +1,19 @@
+//
+//  Prefix.pch
+//  sphtech
+//
+//  Created by Michael Ugale on 1/14/19.
+//  Copyright © 2019 Michael Ugale. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#import "Constant.h"
+#import "SpeilsConstant.h"
+#import "ServerManager.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Prefix_pch */
