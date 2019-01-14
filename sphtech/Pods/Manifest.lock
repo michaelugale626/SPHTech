@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - HMSegmentedControl (1.5.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - SDVersion (4.3.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - "UIAlertController+Blocks (0.9.2)"
+
+DEPENDENCIES:
+  - AFNetworking
+  - HMSegmentedControl
+  - Masonry
+  - MBProgressHUD
+  - SDVersion
+  - SDWebImage (~> 3.8)
+  - "UIAlertController+Blocks"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - HMSegmentedControl
+    - Masonry
+    - MBProgressHUD
+    - SDVersion
+    - SDWebImage
+    - "UIAlertController+Blocks"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SDVersion: 18f32c835c1543611fcfae3c6accd9a04b90597e
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  "UIAlertController+Blocks": 80e28b92523fb58aba4d1bccec013d5a0b0bddb2
+
+PODFILE CHECKSUM: 8c187c9d91499290f6c65c19cd1f742e416ef854
+
+COCOAPODS: 1.5.3
