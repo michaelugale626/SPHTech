@@ -70,6 +70,7 @@
 		C46A50F321ED50AF00BBAC1A /* RecordsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50F121ED50AF00BBAC1A /* RecordsManager.m */; };
 		C46A50F621ED50C100BBAC1A /* RecordsSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50F521ED50C100BBAC1A /* RecordsSetter.m */; };
 		C46A50F721ED50C100BBAC1A /* RecordsSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50F521ED50C100BBAC1A /* RecordsSetter.m */; };
+		C46A50FF21EE290400BBAC1A /* sphtechRestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46A50FE21EE290400BBAC1A /* sphtechRestTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,13 @@
 			remoteInfo = sphtech;
 		};
 		C46A507621ECA56B00BBAC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46A504A21ECA56A00BBAC1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46A505121ECA56A00BBAC1A;
+			remoteInfo = sphtech;
+		};
+		C46A510121EE290400BBAC1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C46A504A21ECA56A00BBAC1A /* Project object */;
 			proxyType = 1;
@@ -160,6 +168,9 @@
 		C46A50F121ED50AF00BBAC1A /* RecordsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordsManager.m; sourceTree = "<group>"; };
 		C46A50F421ED50C100BBAC1A /* RecordsSetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordsSetter.h; sourceTree = "<group>"; };
 		C46A50F521ED50C100BBAC1A /* RecordsSetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordsSetter.m; sourceTree = "<group>"; };
+		C46A50FC21EE290400BBAC1A /* sphtechRestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sphtechRestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46A50FE21EE290400BBAC1A /* sphtechRestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sphtechRestTests.m; sourceTree = "<group>"; };
+		C46A510021EE290400BBAC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3A15E23C2B82414AF0B2AC5 /* Pods-sphtech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech/Pods-sphtech.debug.xcconfig"; sourceTree = "<group>"; };
 		F2902D556FB004579D24BD7E /* libPods-sphtech-sphtechTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sphtech-sphtechTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -183,6 +194,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C46A507221ECA56B00BBAC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46A50F921EE290400BBAC1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,6 +231,7 @@
 				C46A505421ECA56A00BBAC1A /* sphtech */,
 				C46A506D21ECA56B00BBAC1A /* sphtechTests */,
 				C46A507821ECA56B00BBAC1A /* sphtechUITests */,
+				C46A50FD21EE290400BBAC1A /* sphtechRestTests */,
 				C46A505321ECA56A00BBAC1A /* Products */,
 				1410267AE88B34145961B68E /* Pods */,
 				C4B2162C77B4BAF09A06AD88 /* Frameworks */,
@@ -225,6 +244,7 @@
 				C46A505221ECA56A00BBAC1A /* sphtech.app */,
 				C46A506A21ECA56B00BBAC1A /* sphtechTests.xctest */,
 				C46A507521ECA56B00BBAC1A /* sphtechUITests.xctest */,
+				C46A50FC21EE290400BBAC1A /* sphtechRestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -426,6 +446,15 @@
 			path = Records;
 			sourceTree = "<group>";
 		};
+		C46A50FD21EE290400BBAC1A /* sphtechRestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C46A50FE21EE290400BBAC1A /* sphtechRestTests.m */,
+				C46A510021EE290400BBAC1A /* Info.plist */,
+			);
+			path = sphtechRestTests;
+			sourceTree = "<group>";
+		};
 		C4B2162C77B4BAF09A06AD88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -498,6 +527,24 @@
 			productReference = C46A507521ECA56B00BBAC1A /* sphtechUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C46A50FB21EE290400BBAC1A /* sphtechRestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46A510321EE290400BBAC1A /* Build configuration list for PBXNativeTarget "sphtechRestTests" */;
+			buildPhases = (
+				C46A50F821EE290400BBAC1A /* Sources */,
+				C46A50F921EE290400BBAC1A /* Frameworks */,
+				C46A50FA21EE290400BBAC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C46A510221EE290400BBAC1A /* PBXTargetDependency */,
+			);
+			name = sphtechRestTests;
+			productName = sphtechRestTests;
+			productReference = C46A50FC21EE290400BBAC1A /* sphtechRestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -521,6 +568,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = C46A505121ECA56A00BBAC1A;
 					};
+					C46A50FB21EE290400BBAC1A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C46A505121ECA56A00BBAC1A;
+					};
 				};
 			};
 			buildConfigurationList = C46A504D21ECA56A00BBAC1A /* Build configuration list for PBXProject "sphtech" */;
@@ -539,6 +591,7 @@
 				C46A505121ECA56A00BBAC1A /* sphtech */,
 				C46A506921ECA56B00BBAC1A /* sphtechTests */,
 				C46A507421ECA56B00BBAC1A /* sphtechUITests */,
+				C46A50FB21EE290400BBAC1A /* sphtechRestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -586,6 +639,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C46A507321ECA56B00BBAC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46A50FA21EE290400BBAC1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -752,6 +812,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C46A50F821EE290400BBAC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46A50FF21EE290400BBAC1A /* sphtechRestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -764,6 +832,11 @@
 			isa = PBXTargetDependency;
 			target = C46A505121ECA56A00BBAC1A /* sphtech */;
 			targetProxy = C46A507621ECA56B00BBAC1A /* PBXContainerItemProxy */;
+		};
+		C46A510221EE290400BBAC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C46A505121ECA56A00BBAC1A /* sphtech */;
+			targetProxy = C46A510121EE290400BBAC1A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -979,6 +1052,34 @@
 			};
 			name = Release;
 		};
+		C46A510421EE290400BBAC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sphtechRestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.www.sphtechRestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sphtech.app/sphtech";
+			};
+			name = Debug;
+		};
+		C46A510521EE290400BBAC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sphtechRestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.www.sphtechRestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sphtech.app/sphtech";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1014,6 +1115,15 @@
 			buildConfigurations = (
 				C46A508521ECA56B00BBAC1A /* Debug */,
 				C46A508621ECA56B00BBAC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46A510321EE290400BBAC1A /* Build configuration list for PBXNativeTarget "sphtechRestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46A510421EE290400BBAC1A /* Debug */,
+				C46A510521EE290400BBAC1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
