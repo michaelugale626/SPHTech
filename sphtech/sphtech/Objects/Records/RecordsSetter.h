@@ -16,7 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface RecordsSetter : NSObject
     
 + (RecordsSetter *)shared;
-    
+
+- (NSArray *) setObject: (NSDictionary *)response;
 - (RecordsManager *) setInfo: (NSDictionary *)response;
     
 @end

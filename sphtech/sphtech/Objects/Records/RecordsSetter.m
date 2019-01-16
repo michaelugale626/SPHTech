@@ -25,6 +25,18 @@ static RecordsSetter *shared = nil;
     }
     return shared;
 }
+
+- (NSArray *) setObject: (NSDictionary *)response
+{
+    NSMutableArray *list = [[NSMutableArray alloc] init];
+    
+    for (NSDictionary *rows in response) {
+        RecordsManager *record = [self setInfo:rows];
+        [list addObject:record];
+    }
+    
+    return list;
+}
     
 - (RecordsManager *) setInfo: (NSDictionary *)rows
 {
