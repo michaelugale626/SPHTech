@@ -67,7 +67,7 @@
 //******************************
 
 #define API_BASE_URL                @"https://data.gov.sg/api/action/datastore_search?"
-#define API_MEDIA_BASE_URL          @""
+#define API_MEDIA_BASE_URL          @"https://lh6.googleusercontent.com/TG2F2pndqmHORjpbzuiuobdX90XlmNRcfvkvoSrgBWNjecLcwtWOW-7_kmFI-hm-wJymG6s8iQ=w200"
 
 #define API_RESOURCE_KEY            @"a807b7ab-6cad-4aa6-87d0-e283a7353a0f"
 

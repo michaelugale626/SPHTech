@@ -28,9 +28,9 @@
     
 }
 
-- (void)setvalue:(RecordsManager *)record
+- (void)setvalue:(RecordsManager *)record set:(Boolean)isActive
 {
-    NSString *imageURL = @"";
+    NSString *imageURL = API_MEDIA_BASE_URL;
     
     self.quarterValue.text    = record.recordQuarter;
     self.volumeValue.text     = record.recordVolume;
@@ -39,6 +39,8 @@
     
     [self.image sd_setImageWithURL:[NSURL URLWithString:imageURL]
                   placeholderImage:[UIImage imageNamed:@"default_grid"]];
+    
+    [self.imageOverlay setHidden:isActive];
 }
 
 @end

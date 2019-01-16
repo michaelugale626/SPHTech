@@ -13,6 +13,8 @@
 
 //Vendor
 #import <MBProgressHUD/MBProgressHUD.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <ImageZoomViewer/ImageZoomViewer.h>
 
 //Object
 #import "RecordsSetter.h"
@@ -25,7 +27,13 @@
 
 #define PAGE_LIMIT @"30"
 
-@interface ViewController ()
+@interface ViewController () {
+    
+    //Vendor
+    __weak IBOutlet UIImageView *thumbImageView;
+    NSMutableArray *images;
+    NSInteger currentIndex;
+}
 
 //Vendor
 @property (strong, nonatomic) MBProgressHUD *hud;
@@ -40,6 +48,7 @@
 @property int loaderCtr;
 @property int totalItemLoaded;
 @property int offset;
+@property float previous;
 
 @end
 
@@ -114,7 +123,22 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     RecordCollectionViewCell *cell = [RecordCollectionViewCell dequeueForTableView:collectionView indexPath:indexPath];
-    [cell setvalue:self.listProducts[indexPath.row]];
+    [cell setvalue:self.listProducts[indexPath.row] set:false];
+    
+    RecordsManager *record = self.listProducts[indexPath.row];
+    
+    if (self.previous > [record.recordVolume floatValue]) {
+        [cell.imageOverlay addTarget:self action:@selector(enlargeImage) forControlEvents:UIControlEventTouchUpInside];
+        [cell.imageOverlay setUserInteractionEnabled:YES];
+        [cell.imageOverlay setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0]];
+        
+    } else {
+        [cell.imageOverlay setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:1]];
+        [cell.imageOverlay setUserInteractionEnabled:NO];
+    }
+    
+    self.previous = [record.recordVolume floatValue];
+    
     
     return cell;
 }
@@ -247,6 +271,43 @@
         self.listProducts = [[NSMutableArray alloc] init];
         [self.collectionView reloadData];
     }
+}
+
+
+#pragma mark - NYTPhotos Gallery
+
+- (void) enlargeImage
+{
+    images = [[NSMutableArray alloc]init];
+    [images addObject:API_MEDIA_BASE_URL];
+    
+    thumbImageView.layer.borderWidth = 1.0;
+    [thumbImageView.layer setBorderColor:[UIColor orangeColor].CGColor];
+    currentIndex = 0;
+    [thumbImageView sd_setImageWithURL:[NSURL URLWithString:[images firstObject]]];
+    
+    ImageZoomViewer *zoomImageView = [[ImageZoomViewer alloc]initWithBottomCollectionBorderColor:[UIColor orangeColor]];
+    [zoomImageView.closeBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    zoomImageView.delegate = (id)self;
+    CGPoint point = [self.view convertPoint:thumbImageView.frame.origin toView:self.view];
+    CGRect animFrame = CGRectMake(point.x, point.y, thumbImageView.frame.size.width, thumbImageView.frame.size.height);
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:animFrame];
+    [imgView sd_setImageWithURL:[NSURL URLWithString:[images firstObject]]];
+    [zoomImageView showWithPageIndex:currentIndex andImagesCount:images.count withInitialImageView:imgView andAnimType:AnimationTypePop];
+}
+
+# pragma Mark - ImageZoomViewer Delegates
+
+- (void)initializeImageviewWithImages:(UIImageView *)imageview withIndexPath:(NSIndexPath *)indexPath withCollection:(int)collectionReference
+{
+    NSString *urlString = [images objectAtIndex:indexPath.row];
+    [imageview sd_setImageWithURL:[NSURL URLWithString:urlString]];
+}
+
+- (void)imageIndexOnChange:(NSInteger)index
+{
+    currentIndex = index;
+    [thumbImageView sd_setImageWithURL:[NSURL URLWithString:[images objectAtIndex:currentIndex]]];
 }
 
 

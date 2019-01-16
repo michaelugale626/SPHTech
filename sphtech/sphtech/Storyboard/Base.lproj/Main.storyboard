@@ -47,11 +47,19 @@
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wLq-Df-WLW">
                                                                     <rect key="frame" x="0.0" y="0.0" width="160" height="125"/>
                                                                 </imageView>
+                                                                <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k07-CF-16N">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="160" height="125"/>
+                                                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </button>
                                                             </subviews>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <constraints>
                                                                 <constraint firstItem="wLq-Df-WLW" firstAttribute="top" secondItem="ctH-yy-M9e" secondAttribute="top" id="60k-O8-i3o"/>
                                                                 <constraint firstItem="wLq-Df-WLW" firstAttribute="leading" secondItem="ctH-yy-M9e" secondAttribute="leading" id="Acw-UL-DiW"/>
+                                                                <constraint firstAttribute="trailing" secondItem="k07-CF-16N" secondAttribute="trailing" id="Scx-n5-L0b"/>
+                                                                <constraint firstItem="k07-CF-16N" firstAttribute="leading" secondItem="ctH-yy-M9e" secondAttribute="leading" id="WDF-LG-xTa"/>
+                                                                <constraint firstItem="k07-CF-16N" firstAttribute="top" secondItem="ctH-yy-M9e" secondAttribute="top" id="YcA-sg-PVe"/>
+                                                                <constraint firstAttribute="bottom" secondItem="k07-CF-16N" secondAttribute="bottom" id="YhC-bR-mJa"/>
                                                                 <constraint firstAttribute="height" constant="125" id="c1s-jK-8Zy"/>
                                                                 <constraint firstAttribute="bottom" secondItem="wLq-Df-WLW" secondAttribute="bottom" id="iOy-iV-IiG"/>
                                                                 <constraint firstAttribute="trailing" secondItem="wLq-Df-WLW" secondAttribute="trailing" id="nmt-32-OLB"/>
@@ -125,6 +133,7 @@
                                         <connections>
                                             <outlet property="image" destination="wLq-Df-WLW" id="Tt6-Qb-zCo"/>
                                             <outlet property="imageContainer" destination="ctH-yy-M9e" id="Ith-hS-aKM"/>
+                                            <outlet property="imageOverlay" destination="k07-CF-16N" id="cgl-Yd-UUz"/>
                                             <outlet property="mainContainer" destination="LJ6-kd-5jD" id="oBN-gR-gRe"/>
                                             <outlet property="quarterValue" destination="Ntb-Dz-hmQ" id="RjF-5C-e5X"/>
                                             <outlet property="volumeValue" destination="JAT-pu-mVE" id="J4Y-2B-ISu"/>

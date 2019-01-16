@@ -17,7 +17,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *quarterValue;
 @property (weak, nonatomic) IBOutlet UILabel *volumeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *volumeValue;
+@property (weak, nonatomic) IBOutlet UIButton *imageOverlay;
 
-- (void)setvalue:(RecordsManager *)record;
+- (void)setvalue:(RecordsManager *)record set:(Boolean)isActive;
 
 @end

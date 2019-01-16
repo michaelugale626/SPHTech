@@ -18,7 +18,7 @@
         [coder encodeObject:_recordQuarter                          forKey:@"recordQuarter"];
         [coder encodeObject:_recordVolume                           forKey:@"recordVolume"];
     }
-    
+
 - (instancetype)initWithCoder:(NSCoder *)coder
     {
         self = [super init];
