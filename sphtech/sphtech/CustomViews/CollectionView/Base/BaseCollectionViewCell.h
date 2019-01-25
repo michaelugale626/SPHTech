@@ -20,6 +20,9 @@
 
 //Objects
 #import "RecordsManager.h"
+#import "QuarterManager.h"
+
+#import "Constant.h"
 
 @interface BaseCollectionViewCell : UICollectionViewCell
 

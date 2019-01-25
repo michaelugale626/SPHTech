@@ -16,6 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - Crashlytics (3.12.0):
     - Fabric (~> 1.9.0)
+  - DSBarChart (0.4.0)
   - Fabric (1.9.0)
   - HMSegmentedControl (1.5.5)
   - ImageZoomViewer (1.0.0)
@@ -30,6 +31,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - Crashlytics
+  - DSBarChart (~> 0.4.0)
   - Fabric
   - HMSegmentedControl
   - ImageZoomViewer
@@ -43,6 +45,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - Crashlytics
+    - DSBarChart
     - Fabric
     - HMSegmentedControl
     - ImageZoomViewer
@@ -55,6 +58,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  DSBarChart: a065a2feb580994c443446cd858f157c17079df1
   Fabric: f988e33c97f08930a413e08123064d2e5f68d655
   HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
   ImageZoomViewer: b63dba45bae6f1a2eae36da5f642bb7074eb8036
@@ -64,6 +68,6 @@ SPEC CHECKSUMS:
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   "UIAlertController+Blocks": 80e28b92523fb58aba4d1bccec013d5a0b0bddb2
 
-PODFILE CHECKSUM: 5db6b7479e59150cca9c1fb2414b2c7d592f2fea
+PODFILE CHECKSUM: 43ed292cfa9471a82f9f97fc9d0080df7533ca8b
 
 COCOAPODS: 1.5.3

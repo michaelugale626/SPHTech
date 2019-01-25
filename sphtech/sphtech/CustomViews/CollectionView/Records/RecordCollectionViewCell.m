@@ -7,6 +7,7 @@
 //
 
 #import "RecordCollectionViewCell.h"
+#import <DSBarChart/DSBarChart.h>
 
 @implementation RecordCollectionViewCell
 
@@ -28,19 +29,38 @@
     
 }
 
-- (void)setvalue:(RecordsManager *)record set:(Boolean)isActive
+- (void)setvalue:(QuarterManager *)quarter set:(Boolean)isActive
 {
+    NSMutableArray *qList = [[NSMutableArray alloc] initWithArray:[[Cache shared] getCachedObjectForKey:DATA_INFORMATION]];
+    NSMutableArray *list = [[NSMutableArray alloc] initWithArray:[qList valueForKey:[NSString stringWithFormat:@"%@",quarter]]];
+    [list removeObjectIdenticalTo:[NSNull null]];
     NSString *imageURL = API_MEDIA_BASE_URL;
-    
-    self.quarterValue.text    = record.recordQuarter;
-    self.volumeValue.text     = record.recordVolume;
-    
-    SPLOG_DEBUG(@"imageURL: %@",imageURL);
     
     [self.image sd_setImageWithURL:[NSURL URLWithString:imageURL]
                   placeholderImage:[UIImage imageNamed:@"default_grid"]];
     
     [self.imageOverlay setHidden:isActive];
+    [self.image setHidden:YES];
+    
+    NSMutableArray *vals = [[NSMutableArray alloc] init];
+    NSMutableArray *refs = [[NSMutableArray alloc] init];
+    
+    for (int i = 0; i <= [list count] - 1; i++) {
+        RecordsManager *record    = list[i];
+        
+        [vals addObject:[NSNumber numberWithFloat:[record.recordVolume floatValue]]];
+        [refs addObject:record.recordQuarter];
+    }
+    
+    
+    DSBarChart *chrt = [[DSBarChart alloc] initWithFrame:self.imageContainer.bounds
+                                                   color:[UIColor blueColor]
+                                              references:refs
+                                               andValues:vals];
+    [chrt setBackgroundColor:[UIColor whiteColor]];
+    chrt.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    chrt.bounds = self.imageContainer.bounds;
+    [self.imageContainer addSubview:chrt];
 }
 
 @end

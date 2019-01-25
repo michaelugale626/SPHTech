@@ -20,6 +20,9 @@
 #import "UIViewController+Additions.h"
 #import "UIAlertController+Convenience.h"
 
+#import "Constant.h"
+#import "SpeilsConstant.h"
+
 typedef void (^AFRequestOperationSuccesBlock)(NSURLSessionDataTask *task, id responseObject);
 typedef void (^AFRequestOperationFailureBlock)(NSURLSessionDataTask *task, NSError *error);
 

@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 FOUNDATION_EXPORT NSString *const ACCESS_TOKEN;
+FOUNDATION_EXPORT NSString *const DATA_LIST_KEY;
+FOUNDATION_EXPORT NSString *const DATA_INFORMATION;
 
 @interface Cache : NSObject
     

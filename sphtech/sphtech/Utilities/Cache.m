@@ -11,6 +11,8 @@
 @implementation Cache
     
 NSString *const ACCESS_TOKEN                                 = @"com.data_access_token.www";
+NSString *const DATA_LIST_KEY                                 = @"com.data_list_keys.www";
+NSString *const DATA_INFORMATION                              = @"com.data_information.www";
 
 static Cache *shared = nil;
     
@@ -76,6 +78,8 @@ static Cache *shared = nil;
 - (void)clearAllCache
     {
         [[Cache shared] removeCachedObjectWithKey:ACCESS_TOKEN];
+        [[Cache shared] removeCachedObjectWithKey:DATA_LIST_KEY];
+        [[Cache shared] removeCachedObjectWithKey:DATA_INFORMATION];
     }
 
 @end

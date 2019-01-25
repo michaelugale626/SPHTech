@@ -15,10 +15,25 @@ target 'sphtech' do
     pod 'HMSegmentedControl'
     pod 'SDWebImage', '~>3.8'
     pod 'ImageZoomViewer'
+    pod 'DSBarChart', '~> 0.4.0'
 end
 
 
 target 'sphtechTests' do
+    
+    pod 'AFNetworking'
+    pod 'MBProgressHUD'
+    pod 'SDVersion'
+    pod 'Masonry'
+    
+    pod 'UIAlertController+Blocks'
+    pod 'HMSegmentedControl'
+    pod 'SDWebImage', '~>3.8'
+    pod 'ImageZoomViewer'
+    
+end
+
+target 'sphtechRestTests' do
     
     pod 'AFNetworking'
     pod 'MBProgressHUD'

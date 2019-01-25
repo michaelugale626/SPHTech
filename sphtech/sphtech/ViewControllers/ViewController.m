@@ -18,6 +18,7 @@
 
 //Object
 #import "RecordsSetter.h"
+#import "QuarterSetter.h"
 
 //Categories
 #import "UIColor+More.h"
@@ -25,7 +26,7 @@
 //CustomViews
 #import "RecordCollectionViewCell.h"
 
-#define PAGE_LIMIT @"30"
+#define PAGE_LIMIT @"20"
 
 @interface ViewController () {
     
@@ -76,6 +77,7 @@
  */
 - (void)initializeObjects
 {
+    [[Cache shared] clearAllCache];
     self.offset         = 0;
     self.loaderCtr      = 0;
     self.isLoading      = false;
@@ -125,28 +127,13 @@
     RecordCollectionViewCell *cell = [RecordCollectionViewCell dequeueForTableView:collectionView indexPath:indexPath];
     [cell setvalue:self.listProducts[indexPath.row] set:false];
     
-    RecordsManager *record = self.listProducts[indexPath.row];
-    
-    if (self.previous > [record.recordVolume floatValue]) {
-        [cell.imageOverlay addTarget:self action:@selector(enlargeImage) forControlEvents:UIControlEventTouchUpInside];
-        [cell.imageOverlay setUserInteractionEnabled:YES];
-        [cell.imageOverlay setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0]];
-        
-    } else {
-        [cell.imageOverlay setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:1]];
-        [cell.imageOverlay setUserInteractionEnabled:NO];
-    }
-    
-    self.previous = [record.recordVolume floatValue];
-    
-    
     return cell;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    float width = (self.collectionView.frame.size.width / 2) - 15;
-    return CGSizeMake(width, 270);
+    float width = self.view.frame.size.width - 20;
+    return CGSizeMake(width, 300);
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
@@ -228,12 +215,13 @@
         
         NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
         [dictionary setObject:PAGE_LIMIT forKey:@"limit"];
+        [dictionary setObject:[NSString stringWithFormat:@"%i", self.offset] forKey:@"offset"];
         
         [[ServerManager sharedManager] getDataList:dictionary
                                            success:^(NSDictionary *responseObject) {
                                                SPLOG_DEBUG(@"DATA LIST: %@",responseObject);
-                                               
-                                               self.offset = self.offset + 1;
+                                              
+                                               self.offset = self.offset + [PAGE_LIMIT intValue] + 1;
                                                [self setProductListValue:responseObject[@"result"][@"records"]];
                                                [self hasLoadingItem];
                                                [self.refreshControl endRefreshing];
@@ -263,8 +251,8 @@
         if ( !self.isLoadMore ) {
             self.listProducts = [[NSMutableArray alloc] init];
         }
-        
-        [self.listProducts addObjectsFromArray:[[RecordsSetter shared] setObject: response]];
+         [self.listProducts addObjectsFromArray:[[QuarterSetter shared] setObject: response]];
+//        [self.listProducts addObjectsFromArray:[[RecordsSetter shared] setObject: response]];
         self.totalItemLoaded = (int)[self.listProducts count];
         [self.collectionView reloadData];
     } else if (!self.isLoadMore) {

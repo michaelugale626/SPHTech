@@ -42,8 +42,8 @@ static RecordsSetter *shared = nil;
 {
     RecordsManager *record      = [[RecordsManager alloc] init];
     record.recordID             = [rows[@"_id"] safeStringValue];
-    record.recordVolume         = [rows[@"quarter"] safeStringValue];
-    record.recordQuarter        = [rows[@"volume_of_mobile_data"] safeStringValue];
+    record.recordVolume         = [rows[@"volume_of_mobile_data"] safeStringValue];
+    record.recordQuarter        = [rows[@"quarter"] safeStringValue];
     
     return record;
 }

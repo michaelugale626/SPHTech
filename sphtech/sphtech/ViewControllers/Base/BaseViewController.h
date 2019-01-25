@@ -20,6 +20,8 @@
 #import <Masonry/Masonry.h>
 #import <SDVersion/SDVersion.h>
 
+#import "Constant.h"
+
 @interface BaseViewController : UIViewController
     
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *leftBarButtonItem;
