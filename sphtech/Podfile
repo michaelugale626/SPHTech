@@ -30,6 +30,7 @@ target 'sphtechTests' do
     pod 'HMSegmentedControl'
     pod 'SDWebImage', '~>3.8'
     pod 'ImageZoomViewer'
+    pod 'DSBarChart', '~> 0.4.0'
     
 end
 
@@ -44,5 +45,6 @@ target 'sphtechRestTests' do
     pod 'HMSegmentedControl'
     pod 'SDWebImage', '~>3.8'
     pod 'ImageZoomViewer'
+    pod 'DSBarChart', '~> 0.4.0'
     
 end

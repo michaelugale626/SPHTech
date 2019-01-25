@@ -144,7 +144,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking-iOS8.0/AFNetworking.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/DSBarChart/DSBarChart.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DSBarChart-iOS8.0/DSBarChart.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HMSegmentedControl-iOS8.0/HMSegmentedControl.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ImageZoomViewer-iOS8.0/ImageZoomViewer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS8.0/MBProgressHUD.framework"
@@ -155,7 +155,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking-iOS8.0/AFNetworking.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/DSBarChart/DSBarChart.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DSBarChart-iOS8.0/DSBarChart.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HMSegmentedControl-iOS8.0/HMSegmentedControl.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ImageZoomViewer-iOS8.0/ImageZoomViewer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS8.0/MBProgressHUD.framework"

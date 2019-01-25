@@ -11,6 +11,9 @@
 //Objects
 #import "QuarterManager.h"
 
+//Utilities
+#import "Cache.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QuarterSetter : NSObject

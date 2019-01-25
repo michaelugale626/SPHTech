@@ -14,7 +14,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>DSBarChart.xcscheme</key>
+		<key>DSBarChart-iOS11.1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DSBarChart-iOS8.0.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

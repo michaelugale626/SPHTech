@@ -8,6 +8,9 @@
 
 #import "BaseCollectionViewCell.h"
 
+//Utilities
+#import "Cache.h"
+
 @interface RecordCollectionViewCell : BaseCollectionViewCell
 
 @property (weak, nonatomic) IBOutlet UIView *mainContainer;

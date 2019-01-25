@@ -736,6 +736,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-sphtechTests/Pods-sphtechTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking-iOS11.1/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DSBarChart-iOS11.1/DSBarChart.framework",
 				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl-iOS11.1/HMSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageZoomViewer-iOS11.1/ImageZoomViewer.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS11.1/MBProgressHUD.framework",
@@ -747,6 +748,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DSBarChart.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageZoomViewer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -804,6 +806,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-sphtechRestTests/Pods-sphtechRestTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking-iOS11.1/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DSBarChart-iOS11.1/DSBarChart.framework",
 				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl-iOS11.1/HMSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageZoomViewer-iOS11.1/ImageZoomViewer.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS11.1/MBProgressHUD.framework",
@@ -815,6 +818,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DSBarChart.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageZoomViewer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -854,7 +858,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-sphtech/Pods-sphtech-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking-iOS8.0/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/DSBarChart/DSBarChart.framework",
+				"${BUILT_PRODUCTS_DIR}/DSBarChart-iOS8.0/DSBarChart.framework",
 				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl-iOS8.0/HMSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageZoomViewer-iOS8.0/ImageZoomViewer.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS8.0/MBProgressHUD.framework",

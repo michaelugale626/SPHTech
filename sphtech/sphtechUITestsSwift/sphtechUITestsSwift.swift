@@ -31,8 +31,7 @@ class sphtechUITestsSwift: XCTestCase {
     func testInteractions() {
         
         let app = XCUIApplication()
-        
-        app.collectionViews["collectionView"].staticTexts["Fourth Row"].tap()
+        app.collectionViews.cells.element(boundBy:0).tap()
         
     }
     

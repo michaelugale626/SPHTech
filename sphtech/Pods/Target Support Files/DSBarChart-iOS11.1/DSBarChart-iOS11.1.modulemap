@@ -1,0 +1,6 @@
+framework module DSBarChart {
+  umbrella header "DSBarChart-iOS11.1-umbrella.h"
+
+  export *
+  module * { export * }
+}
