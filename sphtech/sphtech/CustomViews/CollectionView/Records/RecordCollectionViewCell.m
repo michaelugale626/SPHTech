@@ -63,7 +63,10 @@
         }
         
         previous = volume;
+    
     }
+    
+    [self setQuaterValue:list[0] setValue:list[[list count] - 1]];
     
     DSBarChart *chrt = [[DSBarChart alloc] initWithFrame:self.imageContainer.bounds
                                                    color:[UIColor blueColor]
@@ -77,6 +80,12 @@
     if (changed) {
         [self addButton];
     }
+}
+
+- (void) setQuaterValue: (RecordsManager *)fisrt setValue:(RecordsManager *) last
+{
+    self.volumeValue.text = [NSString stringWithFormat:@"%@ - %@",fisrt.recordVolume, last.recordVolume];
+    self.quarterValue.text = [NSString stringWithFormat:@"%@ - %@",fisrt.recordQuarter, last.recordQuarter];
 }
 
 - (void) addButton
