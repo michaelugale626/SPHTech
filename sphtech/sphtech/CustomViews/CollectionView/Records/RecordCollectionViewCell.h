@@ -19,6 +19,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *volumeValue;
 @property (weak, nonatomic) IBOutlet UIButton *imageOverlay;
 
+@property (strong, nonatomic) IBOutlet UIImageView *thumbImageView;
+@property (strong, nonatomic) NSMutableArray *images;
+@property NSInteger currentIndex;
+
 - (void)setvalue:(QuarterManager *)quarter set:(Boolean)isActive;
 
 @end

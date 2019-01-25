@@ -127,6 +127,21 @@
     RecordCollectionViewCell *cell = [RecordCollectionViewCell dequeueForTableView:collectionView indexPath:indexPath];
     [cell setvalue:self.listProducts[indexPath.row] set:false];
     
+//    RecordsManager *record = self.listProducts[indexPath.row];
+//
+//    if (self.previous > [record.recordVolume floatValue]) {
+//        [cell.imageOverlay addTarget:self action:@selector(enlargeImage) forControlEvents:UIControlEventTouchUpInside];
+//        [cell.imageOverlay setUserInteractionEnabled:YES];
+//        [cell.imageOverlay setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0]];
+//
+//    } else {
+//        [cell.imageOverlay setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:1]];
+//        [cell.imageOverlay setUserInteractionEnabled:NO];
+//    }
+//
+//    self.previous = [record.recordVolume floatValue];
+    
+    
     return cell;
 }
 
