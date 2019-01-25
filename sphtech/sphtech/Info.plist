@@ -20,26 +20,26 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-    <key>NSAppTransportSecurity</key>
-    <dict>
-        <key>NSAllowsArbitraryLoads</key>
-        <true/>
-    </dict>
-    <key>UIAppFonts</key>
-    <array>
-        <string>Seravek-Bold.otf</string>
-        <string>Seravek-BoldItalic.otf</string>
-        <string>Seravek-ExtraLight.otf</string>
-        <string>Seravek-ExtraLightItalic.otf</string>
-        <string>Seravek-Italic.otf</string>
-        <string>Seravek-Light.otf</string>
-        <string>Seravek-LightItalic.otf</string>
-        <string>Seravek-Medium.otf</string>
-        <string>Seravek-MediumItalic.otf</string>
-        <string>Seravek.otf</string>
-        <string>GE_Dinar_Two_Light.otf</string>
-        <string>GE_Dinar_Two_Medium.otf</string>
-    </array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Seravek-Bold.otf</string>
+		<string>Seravek-BoldItalic.otf</string>
+		<string>Seravek-ExtraLight.otf</string>
+		<string>Seravek-ExtraLightItalic.otf</string>
+		<string>Seravek-Italic.otf</string>
+		<string>Seravek-Light.otf</string>
+		<string>Seravek-LightItalic.otf</string>
+		<string>Seravek-Medium.otf</string>
+		<string>Seravek-MediumItalic.otf</string>
+		<string>Seravek.otf</string>
+		<string>GE_Dinar_Two_Light.otf</string>
+		<string>GE_Dinar_Two_Medium.otf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

@@ -48,8 +48,6 @@ static QuarterSetter *shared = nil;
         [mylist addObject:[[RecordsSetter shared] setInfo: rows]];
         [dict setObject:mylist forKey:temp];
         
-        
-//        NSMutableArray *listItem = [[NSMutableArray alloc] initWithObjects:@{ temp : [[RecordsSetter shared] setInfo: rows]},nil];
         [qList addObject:@{ temp : [[RecordsSetter shared] setInfo: rows]}];
     }
     
@@ -59,7 +57,6 @@ static QuarterSetter *shared = nil;
         quarter.quarterID           = key;
         quarter.quarterList         = [dict objectForKey:key];
         
-//        self setInfo:<#(NSDictionary *)#> setList:<#(NSArray *)#>
         [list addObject:quarter];
         
     }
@@ -70,23 +67,6 @@ static QuarterSetter *shared = nil;
     
     
     return [[Cache shared] getCachedObjectForKey:DATA_LIST_KEY];
-}
-
-- (NSMutableArray *) setList: (NSDictionary *)response setKey:(NSString *)key
-{
-    NSMutableArray *list = [[NSMutableArray alloc] init];
-    
-    for (NSDictionary *rows in response) {
-        
-        NSString *item = [rows[@"quarter"] safeStringValue];
-        NSString *temp = [item substringToIndex:[item length]-1];
-        
-        if ([key isEqual:temp]) {
-             [list addObject:[[RecordsSetter shared] setInfo: rows]];
-        }
-    }
-    
-    return list;
 }
 
 - (QuarterManager *) setInfo: (NSDictionary *)rows setList:(NSArray *)list
