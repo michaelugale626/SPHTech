@@ -32,7 +32,5 @@ class sphtechUITestsSwift: XCTestCase {
         
         let app = XCUIApplication()
         app.collectionViews.cells.element(boundBy:0).tap()
-        
     }
-    
 }

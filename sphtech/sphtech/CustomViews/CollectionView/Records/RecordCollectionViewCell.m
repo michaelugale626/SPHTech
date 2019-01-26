@@ -14,6 +14,8 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <ImageZoomViewer/ImageZoomViewer.h>
 
+#import "RecordModel.h"
+
 @implementation RecordCollectionViewCell
 
 - (void)awakeFromNib

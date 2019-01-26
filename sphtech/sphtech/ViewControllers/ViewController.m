@@ -90,6 +90,8 @@
     [self.refreshControl addTarget:self
                             action:@selector(pullToRefresh)
                   forControlEvents:UIControlEventValueChanged];
+    
+    [self.collectionView setAccessibilityIdentifier: @"collectionView"];
 }
 
 - (void)configureView

@@ -12,6 +12,10 @@
 #import "NSObject+Cast.h"
 #import "NSString+Additions.h"
 
+//Model
+#import "YearModel.h"
+#import "RecordModel.h"
+
 @implementation RecordsSetter
     
 static RecordsSetter *shared = nil;
