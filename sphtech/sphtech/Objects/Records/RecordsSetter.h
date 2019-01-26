@@ -10,6 +10,8 @@
 
 //Objects
 #import "RecordsManager.h"
+#import "QuarterSetter.h"
+#import "YearSetter.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

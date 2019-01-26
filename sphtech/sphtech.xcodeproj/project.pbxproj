@@ -81,6 +81,26 @@
 		C472B07F21F883F9009B70B9 /* QuarterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B07D21F883F9009B70B9 /* QuarterManager.m */; };
 		C472B08221F88407009B70B9 /* QuarterSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B08121F88407009B70B9 /* QuarterSetter.m */; };
 		C472B08321F88407009B70B9 /* QuarterSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B08121F88407009B70B9 /* QuarterSetter.m */; };
+		C472B08621FB71C3009B70B9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C472B08421FB71C3009B70B9 /* Model.xcdatamodeld */; };
+		C472B08721FB71C3009B70B9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C472B08421FB71C3009B70B9 /* Model.xcdatamodeld */; };
+		C472B08821FB71C3009B70B9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C472B08421FB71C3009B70B9 /* Model.xcdatamodeld */; };
+		C472B08921FB71C3009B70B9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C472B08421FB71C3009B70B9 /* Model.xcdatamodeld */; };
+		C472B09521FB797B009B70B9 /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B09421FB797B009B70B9 /* RecordModel.m */; };
+		C472B09621FB797B009B70B9 /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B09421FB797B009B70B9 /* RecordModel.m */; };
+		C472B09721FB797B009B70B9 /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B09421FB797B009B70B9 /* RecordModel.m */; };
+		C472B09821FB797B009B70B9 /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B09421FB797B009B70B9 /* RecordModel.m */; };
+		C472B09C21FB7A6E009B70B9 /* YearModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B09B21FB7A6E009B70B9 /* YearModel.m */; };
+		C472B09D21FB7A6E009B70B9 /* YearModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B09B21FB7A6E009B70B9 /* YearModel.m */; };
+		C472B09E21FB7A6E009B70B9 /* YearModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B09B21FB7A6E009B70B9 /* YearModel.m */; };
+		C472B09F21FB7A6E009B70B9 /* YearModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B09B21FB7A6E009B70B9 /* YearModel.m */; };
+		C472B0A321FB9791009B70B9 /* YearManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B0A221FB9791009B70B9 /* YearManager.m */; };
+		C472B0A421FB9791009B70B9 /* YearManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B0A221FB9791009B70B9 /* YearManager.m */; };
+		C472B0A521FB9791009B70B9 /* YearManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B0A221FB9791009B70B9 /* YearManager.m */; };
+		C472B0A621FB9791009B70B9 /* YearManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B0A221FB9791009B70B9 /* YearManager.m */; };
+		C472B0A921FB97EC009B70B9 /* YearSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B0A821FB97EC009B70B9 /* YearSetter.m */; };
+		C472B0AA21FB97EC009B70B9 /* YearSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B0A821FB97EC009B70B9 /* YearSetter.m */; };
+		C472B0AB21FB97EC009B70B9 /* YearSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B0A821FB97EC009B70B9 /* YearSetter.m */; };
+		C472B0AC21FB97EC009B70B9 /* YearSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C472B0A821FB97EC009B70B9 /* YearSetter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,17 +128,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D3F30712AE9C46AE8D1C4B /* Pods-sphtech-sphtechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech-sphtechTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech-sphtechTests/Pods-sphtech-sphtechTests.release.xcconfig"; sourceTree = "<group>"; };
 		15B061808CBA19CCDAA1AFD2 /* Pods_sphtechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sphtechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EECC6B6E0A08583A6A80BD /* Pods-sphtechRestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtechRestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtechRestTests/Pods-sphtechRestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		26ACD342AC5E0C7DBEAEECAA /* Pods-sphtechRestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtechRestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sphtechRestTests/Pods-sphtechRestTests.release.xcconfig"; sourceTree = "<group>"; };
-		283C6FAFFDF55FEC366886BD /* Pods-sphtechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtechUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sphtechUITests/Pods-sphtechUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4D68D04FEC42D700C81DD1AD /* Pods-sphtechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtechTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sphtechTests/Pods-sphtechTests.release.xcconfig"; sourceTree = "<group>"; };
-		566801A916F743C7B5AE1D37 /* Pods-sphtech-sphtechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech-sphtechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech-sphtechTests/Pods-sphtech-sphtechTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7531C3F8673849256EB876BB /* Pods_sphtech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sphtech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED933486340A6181482CDC1 /* Pods-sphtech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech.release.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech/Pods-sphtech.release.xcconfig"; sourceTree = "<group>"; };
 		965466B72329E064443A882D /* Pods-sphtechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtechTests/Pods-sphtechTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A5E7FCB7E87EBA2158319692 /* Pods-sphtechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtechUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtechUITests/Pods-sphtechUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B125585E11A91B8D66A6538E /* Pods_sphtechRestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sphtechRestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C408F3C821EE3051000224EF /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
 		C408F3C921EE3051000224EF /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
@@ -192,6 +208,15 @@
 		C472B07D21F883F9009B70B9 /* QuarterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuarterManager.m; sourceTree = "<group>"; };
 		C472B08021F88407009B70B9 /* QuarterSetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuarterSetter.h; sourceTree = "<group>"; };
 		C472B08121F88407009B70B9 /* QuarterSetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuarterSetter.m; sourceTree = "<group>"; };
+		C472B08521FB71C3009B70B9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C472B09321FB797B009B70B9 /* RecordModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordModel.h; sourceTree = "<group>"; };
+		C472B09421FB797B009B70B9 /* RecordModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordModel.m; sourceTree = "<group>"; };
+		C472B09A21FB7A6E009B70B9 /* YearModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YearModel.h; sourceTree = "<group>"; };
+		C472B09B21FB7A6E009B70B9 /* YearModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YearModel.m; sourceTree = "<group>"; };
+		C472B0A121FB9791009B70B9 /* YearManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YearManager.h; sourceTree = "<group>"; };
+		C472B0A221FB9791009B70B9 /* YearManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YearManager.m; sourceTree = "<group>"; };
+		C472B0A721FB97EC009B70B9 /* YearSetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YearSetter.h; sourceTree = "<group>"; };
+		C472B0A821FB97EC009B70B9 /* YearSetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YearSetter.m; sourceTree = "<group>"; };
 		E3A15E23C2B82414AF0B2AC5 /* Pods-sphtech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sphtech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sphtech/Pods-sphtech.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -237,10 +262,6 @@
 				7ED933486340A6181482CDC1 /* Pods-sphtech.release.xcconfig */,
 				965466B72329E064443A882D /* Pods-sphtechTests.debug.xcconfig */,
 				4D68D04FEC42D700C81DD1AD /* Pods-sphtechTests.release.xcconfig */,
-				A5E7FCB7E87EBA2158319692 /* Pods-sphtechUITests.debug.xcconfig */,
-				283C6FAFFDF55FEC366886BD /* Pods-sphtechUITests.release.xcconfig */,
-				566801A916F743C7B5AE1D37 /* Pods-sphtech-sphtechTests.debug.xcconfig */,
-				01D3F30712AE9C46AE8D1C4B /* Pods-sphtech-sphtechTests.release.xcconfig */,
 				16EECC6B6E0A08583A6A80BD /* Pods-sphtechRestTests.debug.xcconfig */,
 				26ACD342AC5E0C7DBEAEECAA /* Pods-sphtechRestTests.release.xcconfig */,
 			);
@@ -277,6 +298,7 @@
 		C46A504921ECA56A00BBAC1A = {
 			isa = PBXGroup;
 			children = (
+				C472B08421FB71C3009B70B9 /* Model.xcdatamodeld */,
 				C46A505421ECA56A00BBAC1A /* sphtech */,
 				C46A506D21ECA56B00BBAC1A /* sphtechTests */,
 				C46A50FD21EE290400BBAC1A /* sphtechRestTests */,
@@ -301,6 +323,7 @@
 		C46A505421ECA56A00BBAC1A /* sphtech */ = {
 			isa = PBXGroup;
 			children = (
+				C472B08A21FB7303009B70B9 /* Model */,
 				C46A509221ECA81400BBAC1A /* SupportingFiles */,
 				C46A509021ECA7EA00BBAC1A /* Resources */,
 				C46A508F21ECA7C500BBAC1A /* Storyboard */,
@@ -358,6 +381,7 @@
 		C46A508A21ECA78500BBAC1A /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				C472B0A021FB9779009B70B9 /* Year */,
 				C472B07B21F883C6009B70B9 /* Quarter */,
 				C46A50EF21ED509100BBAC1A /* Records */,
 			);
@@ -527,6 +551,44 @@
 			path = Quarter;
 			sourceTree = "<group>";
 		};
+		C472B08A21FB7303009B70B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C472B09921FB7A60009B70B9 /* YearModel */,
+				C472B09221FB787F009B70B9 /* RecordModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C472B09221FB787F009B70B9 /* RecordModel */ = {
+			isa = PBXGroup;
+			children = (
+				C472B09321FB797B009B70B9 /* RecordModel.h */,
+				C472B09421FB797B009B70B9 /* RecordModel.m */,
+			);
+			path = RecordModel;
+			sourceTree = "<group>";
+		};
+		C472B09921FB7A60009B70B9 /* YearModel */ = {
+			isa = PBXGroup;
+			children = (
+				C472B09A21FB7A6E009B70B9 /* YearModel.h */,
+				C472B09B21FB7A6E009B70B9 /* YearModel.m */,
+			);
+			path = YearModel;
+			sourceTree = "<group>";
+		};
+		C472B0A021FB9779009B70B9 /* Year */ = {
+			isa = PBXGroup;
+			children = (
+				C472B0A121FB9791009B70B9 /* YearManager.h */,
+				C472B0A221FB9791009B70B9 /* YearManager.m */,
+				C472B0A721FB97EC009B70B9 /* YearSetter.h */,
+				C472B0A821FB97EC009B70B9 /* YearSetter.m */,
+			);
+			path = Year;
+			sourceTree = "<group>";
+		};
 		C4B2162C77B4BAF09A06AD88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -643,6 +705,7 @@
 					};
 					C472B07021F7E023009B70B9 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C46A505121ECA56A00BBAC1A;
 					};
@@ -891,14 +954,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C472B0A321FB9791009B70B9 /* YearManager.m in Sources */,
+				C472B09521FB797B009B70B9 /* RecordModel.m in Sources */,
 				C46A50E321ECABD300BBAC1A /* Reachability.m in Sources */,
+				C472B08621FB71C3009B70B9 /* Model.xcdatamodeld in Sources */,
 				C46A510921EE2AC700BBAC1A /* BaseViewController.m in Sources */,
 				C46A50DE21ECAB8A00BBAC1A /* ServerManager.m in Sources */,
 				C46A50A321ECA85D00BBAC1A /* NSDateFormatter+StaticInstance.m in Sources */,
 				C472B07E21F883F9009B70B9 /* QuarterManager.m in Sources */,
+				C472B09C21FB7A6E009B70B9 /* YearModel.m in Sources */,
 				C46A505A21ECA56B00BBAC1A /* ViewController.m in Sources */,
 				C46A50AD21ECA85D00BBAC1A /* UIButton+Format.m in Sources */,
 				C46A506521ECA56B00BBAC1A /* main.m in Sources */,
+				C472B0A921FB97EC009B70B9 /* YearSetter.m in Sources */,
 				C408F3CA21EE3051000224EF /* BaseCollectionViewCell.m in Sources */,
 				C46A50F621ED50C100BBAC1A /* RecordsSetter.m in Sources */,
 				C46A50AF21ECA85D00BBAC1A /* UIColor+More.m in Sources */,
@@ -920,6 +988,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C472B09621FB797B009B70B9 /* RecordModel.m in Sources */,
 				C46A50DF21ECAB8A00BBAC1A /* ServerManager.m in Sources */,
 				C46A50A621ECA85D00BBAC1A /* UIViewController+Additions.m in Sources */,
 				C46A50A821ECA85D00BBAC1A /* NSString+Additions.m in Sources */,
@@ -932,11 +1001,15 @@
 				C46A50B021ECA85D00BBAC1A /* UIColor+More.m in Sources */,
 				C408F3D021EE309D000224EF /* RecordCollectionViewCell.m in Sources */,
 				C46A50AC21ECA85D00BBAC1A /* UILabel+Format.m in Sources */,
+				C472B0AA21FB97EC009B70B9 /* YearSetter.m in Sources */,
 				C46A510A21EE2AC700BBAC1A /* BaseViewController.m in Sources */,
 				C46A50AA21ECA85D00BBAC1A /* UIAlertController+Convenience.m in Sources */,
 				C46A50B221ECA85D00BBAC1A /* NSObject+Cast.m in Sources */,
 				C46A50EC21ECACA900BBAC1A /* Utilities.m in Sources */,
+				C472B09D21FB7A6E009B70B9 /* YearModel.m in Sources */,
 				C472B07F21F883F9009B70B9 /* QuarterManager.m in Sources */,
+				C472B08721FB71C3009B70B9 /* Model.xcdatamodeld in Sources */,
+				C472B0A421FB9791009B70B9 /* YearManager.m in Sources */,
 				C46A50F321ED50AF00BBAC1A /* RecordsManager.m in Sources */,
 				C46A50F721ED50C100BBAC1A /* RecordsSetter.m in Sources */,
 				C46A506F21ECA56B00BBAC1A /* sphtechTests.m in Sources */,
@@ -947,7 +1020,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C472B09E21FB7A6E009B70B9 /* YearModel.m in Sources */,
+				C472B09721FB797B009B70B9 /* RecordModel.m in Sources */,
 				C46A50FF21EE290400BBAC1A /* sphtechRestTests.m in Sources */,
+				C472B0AB21FB97EC009B70B9 /* YearSetter.m in Sources */,
+				C472B0A521FB9791009B70B9 /* YearManager.m in Sources */,
+				C472B08821FB71C3009B70B9 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -955,7 +1033,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C472B09F21FB7A6E009B70B9 /* YearModel.m in Sources */,
+				C472B09821FB797B009B70B9 /* RecordModel.m in Sources */,
 				C472B07421F7E023009B70B9 /* sphtechUITestsSwift.swift in Sources */,
+				C472B0AC21FB97EC009B70B9 /* YearSetter.m in Sources */,
+				C472B0A621FB9791009B70B9 /* YearManager.m in Sources */,
+				C472B08921FB71C3009B70B9 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1114,6 +1197,39 @@
 				INFOPLIST_FILE = sphtech/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"DSBarChart\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"HMSegmentedControl\"",
+					"-framework",
+					"\"ImageZoomViewer\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"SDVersion\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIAlertController_Blocks\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sphtech.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1131,6 +1247,39 @@
 				INFOPLIST_FILE = sphtech/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"DSBarChart\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"HMSegmentedControl\"",
+					"-framework",
+					"\"ImageZoomViewer\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"SDVersion\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIAlertController_Blocks\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sphtech.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1200,6 +1349,7 @@
 		C472B07921F7E023009B70B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = sphtechUITestsSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1216,6 +1366,7 @@
 		C472B07A21F7E023009B70B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = sphtechUITestsSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1277,6 +1428,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C472B08421FB71C3009B70B9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C472B08521FB71C3009B70B9 /* Model.xcdatamodel */,
+			);
+			currentVersion = C472B08521FB71C3009B70B9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C46A504A21ECA56A00BBAC1A /* Project object */;
 }

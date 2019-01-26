@@ -32,7 +32,13 @@ static RecordsSetter *shared = nil;
     
     for (NSDictionary *rows in response) {
         RecordsManager *record = [self setInfo:rows];
-        [list addObject:record];
+        [self insertRecord:record];
+        
+        NSString *temp = [record.recordQuarter substringToIndex:[record.recordQuarter length]-1];
+        if (![[YearModel sharedManager] checkIfExist:temp]) {
+            [[YearModel sharedManager] insertItem:temp];
+            [list addObject:[[YearSetter shared] setInfo:temp]];
+        }
     }
     
     return list;
@@ -46,6 +52,15 @@ static RecordsSetter *shared = nil;
     record.recordQuarter        = [rows[@"quarter"] safeStringValue];
     
     return record;
+}
+
+- (void) insertRecord: (RecordsManager *) record
+{
+    
+    if (![[RecordModel sharedManager] checkIfExist:record.recordQuarter]) {
+        [[RecordModel sharedManager] insertItem:record];
+    }
+    
 }
 
 @end

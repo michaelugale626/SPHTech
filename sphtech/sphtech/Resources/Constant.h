@@ -63,6 +63,14 @@
 #endif
 
 //******************************
+// Database
+//******************************
+#define DEFAULT_DATABASE_NAME           @"Model"
+#define DEFAULT_DATABASE_FILENAME       @"Model.sqlite"
+#define ENTITY_RECORD                   @"Record"
+#define ENTITY_YEAR                     @"Year"
+
+//******************************
 // Client's API Endpoints
 //******************************
 

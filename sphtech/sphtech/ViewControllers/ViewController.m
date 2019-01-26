@@ -166,6 +166,17 @@
  */
 - (void)pullToRefresh
 {
+
+    Reachability *reachability                       = [Reachability reachabilityForInternetConnection];
+    [reachability startNotifier];
+    
+    NetworkStatus status       = [reachability currentReachabilityStatus];
+    
+    if (!(status == NotReachable)) {
+        [[RecordModel sharedManager] deleteAllItem];
+        [[YearModel sharedManager] deleteAllItem];
+    }
+    
     [[Cache shared] clearAllCache];
     [self initializeObjects];
     [self getData];
@@ -247,8 +258,13 @@
         if ( !self.isLoadMore ) {
             self.listProducts = [[NSMutableArray alloc] init];
         }
-         [self.listProducts addObjectsFromArray:[[QuarterSetter shared] setObject: response]];
-        [[Cache shared] setCachedObject:self.listProducts forKey:DATA_LIST_KEY];
+        
+        [self.listProducts addObjectsFromArray:[[RecordsSetter shared] setObject: response]];
+        
+        if ([self.listProducts count] == 0) {
+            [self setListItems];
+        }
+        
         self.totalItemLoaded = (int)[self.listProducts count];
         [self.collectionView reloadData];
     } else if (!self.isLoadMore) {
@@ -260,7 +276,7 @@
 - (void)setListItems
 {
     self.listProducts = [[NSMutableArray alloc] init];
-    [self.listProducts addObjectsFromArray: [[Cache shared] getCachedObjectForKey:DATA_LIST_KEY]];
+    [self.listProducts addObjectsFromArray:[[YearModel sharedManager] getAllItems]];
     [self.collectionView reloadData];
 }
 

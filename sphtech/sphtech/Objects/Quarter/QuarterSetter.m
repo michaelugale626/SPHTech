@@ -15,6 +15,10 @@
 //Objects
 #import "RecordsSetter.h"
 
+//Model
+#import "RecordModel.h"
+#import "YearModel.h"
+
 @implementation QuarterSetter
 
 static QuarterSetter *shared = nil;
@@ -69,11 +73,10 @@ static QuarterSetter *shared = nil;
     return [[Cache shared] getCachedObjectForKey:DATA_LIST_KEY];
 }
 
-- (QuarterManager *) setInfo: (NSDictionary *)rows setList:(NSArray *)list
+- (QuarterManager *) setInfo: (NSDictionary *)rows
 {
     QuarterManager *quarter     = [[QuarterManager alloc] init];
     quarter.quarterID           = [rows[@"quarter"] safeStringValue];
-    quarter.quarterList         = list;
     
     return quarter;
 }

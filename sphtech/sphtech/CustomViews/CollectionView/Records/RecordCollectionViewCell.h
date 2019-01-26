@@ -26,6 +26,6 @@
 @property (strong, nonatomic) NSMutableArray *images;
 @property NSInteger currentIndex;
 
-- (void)setvalue:(QuarterManager *)quarter set:(Boolean)isActive;
+- (void)setvalue:(YearManager *)quarter set:(Boolean)isActive;
 
 @end

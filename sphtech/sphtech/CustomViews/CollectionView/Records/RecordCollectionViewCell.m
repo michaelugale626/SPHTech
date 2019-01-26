@@ -34,11 +34,9 @@
     
 }
 
-- (void)setvalue:(QuarterManager *)quarter set:(Boolean)isActive
+- (void)setvalue:(YearManager *)year set:(Boolean)isActive
 {
-    NSMutableArray *qList = [[NSMutableArray alloc] initWithArray:[[Cache shared] getCachedObjectForKey:DATA_INFORMATION]];
-    NSMutableArray *list = [[NSMutableArray alloc] initWithArray:[qList valueForKey:[NSString stringWithFormat:@"%@",quarter]]];
-    [list removeObjectIdenticalTo:[NSNull null]];
+    NSMutableArray *list = [[NSMutableArray alloc] initWithArray:[[RecordModel sharedManager] getItemByID:year.yearID]];
     NSString *imageURL = API_MEDIA_BASE_URL;
     
     [self.image sd_setImageWithURL:[NSURL URLWithString:imageURL]
@@ -53,17 +51,16 @@
     
     for (int i = 0; i <= [list count] - 1; i++) {
         RecordsManager *record    = list[i];
-        float volume = [record.recordVolume floatValue];
+        float volume = [[record valueForKey:@"volume"] floatValue];
         
         [vals addObject:[NSNumber numberWithFloat:volume]];
-        [refs addObject:record.recordQuarter];
+        [refs addObject:[record valueForKey:@"quarter"]];
         
         if (previous > volume) {
             changed = true;
         }
         
         previous = volume;
-    
     }
     
     [self setQuaterValue:list[0] setValue:list[[list count] - 1]];
@@ -84,8 +81,8 @@
 
 - (void) setQuaterValue: (RecordsManager *)fisrt setValue:(RecordsManager *) last
 {
-    self.volumeValue.text = [NSString stringWithFormat:@"%@ - %@",fisrt.recordVolume, last.recordVolume];
-    self.quarterValue.text = [NSString stringWithFormat:@"%@ - %@",fisrt.recordQuarter, last.recordQuarter];
+    self.volumeValue.text = [NSString stringWithFormat:@"%@ - %@",[fisrt valueForKey:@"volume"], [last valueForKey:@"volume"]];
+    self.quarterValue.text = [NSString stringWithFormat:@"%@ - %@",[fisrt valueForKey:@"quarter"], [last valueForKey:@"quarter"]];
 }
 
 - (void) addButton

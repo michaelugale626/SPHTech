@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (QuarterSetter *)shared;
 
 - (NSArray *) setObject: (NSDictionary *)response;
+- (QuarterManager *) setInfo: (NSDictionary *)rows;
 
 @end
 
